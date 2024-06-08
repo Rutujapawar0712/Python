@@ -1,2 +1,35 @@
 Python History:
  It was made by "Guido Van Rassom" in "1991".
+
+
+
+Python programs can be written on different IDEs (Integrated Development Environments):
+1) Command Prompt
+2) Notepad / Notepad++
+3) Pycharm
+4) Jupitor Notebook
+5) Visual Studio
+6) Git / Github
+7) Replit
+
+
+- After Python download, open cmd (command prompt):
+
+1) To check if Python is correctly installed or not.
+
+python --version
+
+
+2) To run the program directly from the cmd.
+   (Only a single line of code will be executed and cannot be saved.)
+
+python
+  // code
+  ...
+exit()
+
+
+3) To check the output on cmd for the program written on a notepad.
+    
+python "filename".py
+
