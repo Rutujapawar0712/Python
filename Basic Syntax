@@ -7,3 +7,10 @@ iii) Special Symbols : All kind of special symbols like, ” ‘ l ; : ! ~ @ # $
 iv)  Spaces          : All white spaces like tab space, blank space, newline, and carriage return.
 v)   Others          : All ASCII and UNICODE characters are supported by python.
 
+
+# Code - First Program
+i)
+print("Hello")
+
+- O/P.: 
+Hello
