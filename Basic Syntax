@@ -1,0 +1,9 @@
+Python Character Set: 
+ It is a set of valid characters acceptable by a programming language in scripting. 
+
+i)   Alphabets       : All capital (A-Z) and small (a-z) alphabets.
+ii)  Digits          : All digits 0-9.
+iii) Special Symbols : All kind of special symbols like, ” ‘ l ; : ! ~ @ # $ % ^ ` & * ( ) _ + – = { } [ ] \ .
+iv)  Spaces          : All white spaces like tab space, blank space, newline, and carriage return.
+v)   Others          : All ASCII and UNICODE characters are supported by python.
+
