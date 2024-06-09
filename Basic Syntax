@@ -14,3 +14,16 @@ print("Hello")
 
 - O/P.: 
 Hello
+
+
+
+Comments:
+
+1) Single line comment:
+    Write "#" at the start of the line.
+
+2) Multi line comment:
+    Write "#" at the start of each line. 
+    or 
+    Write ''' / """ at the start and ''' / """ at the end.
+
