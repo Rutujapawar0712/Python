@@ -42,3 +42,41 @@ print("Hello", "World ", sep=" , ", end="End")          # Seperate each object w
 Hello World
 Hello , World End
 
+
+
+Escape Characters:
+ To insert a character that cannot be directly used in a string. Write "\" followed by the character that needs to be added.
+
+i)    \' and \"        : Single quote / Double quote	
+ii)   \\	              : Backslash	
+iii)  \n	              : New Line	
+iv)   \r	              : Carriage Return	
+v)    \t	              : Tab	
+vi)   \b	              : Backspace	
+vii)  \f	              : Form Feed	
+viii) \1 (octal value) : Octal value	
+ix)   \x (hex value)	  : Hex value
+
+
+# Code - Escape Characters
+i) 
+print("I am \'Student\' and I am learning \"Python\".")
+
+- O/P.:
+I am 'Student' and I am learning "Python".
+
+
+ii) 
+print("I am Student. \n and \rI am learning \t Python.\b ")
+
+- O/P.:
+I am Student. 
+I am learning    Python
+
+
+iii) 
+print("\110\145\154\154\157 \x57\x6f\x72\x6c\x64")          # Octal and Hex Values
+
+- O/P.: 
+Hello World
+
