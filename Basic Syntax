@@ -27,3 +27,18 @@ Comments:
     or 
     Write ''' / """ at the start and ''' / """ at the end.
 
+
+
+Seperator and End:
+ Default seperator is "space".
+ Default end is "Next Line (\n)".
+
+# Code - Seperator and End
+i)
+print("Hello", "World")
+print("Hello", "World ", sep=" , ", end="End")          # Seperate each object with ","
+
+- O/P.: 
+Hello World
+Hello , World End
+
