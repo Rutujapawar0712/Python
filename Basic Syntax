@@ -80,3 +80,36 @@ print("\110\145\154\154\157 \x57\x6f\x72\x6c\x64")          # Octal and Hex Valu
 - O/P.: 
 Hello World
 
+
+
+Variables:
+ It is name assigned to container (memory location) for storing data value.
+
+# Code - Create Variables
+i)
+String = "Python"
+No = 7
+print(String, No)        
+
+- O/P.:
+Python 7
+
+
+# Code - Assign One Value to Multiple Variables
+i)
+String = Name = "Python"
+print(String, Name)
+
+- O/P.:
+Python Python
+
+
+# Code - Assign Many Values to Multiple Variables
+i)
+String, No = "Python", 7
+print(String)
+print(No)
+
+- O/P.: 
+Python
+7
