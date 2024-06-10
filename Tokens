@@ -42,3 +42,30 @@ The list of Keywords:
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 
  'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
+
+
+2) Identifiers:
+    It is a user-defined name given to a variable, function, class, module, etc. for their identification. 
+
+Characteristics of Python Identifier:
+i)   It can not be a keyword.
+ii)  It is case sensitive language.
+iii) It should be combination of uppercase and lowercase letters, digits or an underscore(_).
+iv)  It can not start with digit.
+v)   It cannot contain any whitespaces or special characters except for the underscore.
+vi)  It should be of any length.
+
+
+# Code - Validity of Identifiers
+i)
+print ("123-Abc".isidentifier())          # Invalid - It starts with digit and has special character '-'
+
+- O/P.:
+FALSE
+
+
+ii)
+print ("Abc_123".isidentifier())          # Valid 
+
+- O/P.:
+TRUE
