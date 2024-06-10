@@ -113,3 +113,25 @@ print(No)
 - O/P.: 
 Python
 7
+
+
+
+Different cases in Variable Names:
+
+i) Camel case: 
+    Each word, except the first, starts with a capital letter.
+Ex.: 
+myVariableName = "Camel Case"
+
+
+ii) Pascal case: 
+     Each word starts with a capital letter.   
+Ex.: 
+MyVariableName = "Pascal Case"
+
+
+iii) Snake case: 
+      Each word is separated by an underscore character.
+Ex.: 
+my_variable_name = "Snake Case"
+ 
