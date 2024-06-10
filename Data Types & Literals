@@ -1,0 +1,31 @@
+Python Data Types: 
+ It is used to define the type of data stored in a variable.
+
+# Code - Identify the Type of data
+i)
+Data = 12345.
+print(type(Data))
+
+- O/P.:
+<class 'float'>
+
+
+ii)
+Data = None
+print(type(Data))
+
+- O/P.:
+<class 'NoneType'>
+
+
+Some built-in Python Data Types are:
+
+i)    String    : str
+ii)   Numeric   : int, float, complex
+iii)  Binary    : bytes, bytearray, memoryview 
+iv)   Boolean   : bool
+v)    Sequence  : list, tuple, range
+vi)   Mapping   : dict
+vii)  Set       : set, frozenset
+viii) None Type : NoneType
+
