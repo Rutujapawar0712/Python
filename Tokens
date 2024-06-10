@@ -22,3 +22,23 @@ The various tokens in python are:
 
 5) Punctuators
 
+
+
+Detail of Tokens:
+
+1) Keywords:
+    They are reserve words with some special meaning or significance in a programming language. 
+    It can’t be used as Identifiers or variable names, function names, or any other random purpose.
+
+
+# Code - Print all Keywords
+i)
+import keyword
+print("The list of Keywords: ")
+print(keyword.kwlist)                    # Printing all Keywords at once using "kwlist()"
+
+- O/P.:
+The list of Keywords: 
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 
+ 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
