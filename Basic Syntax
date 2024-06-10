@@ -134,4 +134,21 @@ iii) Snake case:
       Each word is separated by an underscore character.
 Ex.: 
 my_variable_name = "Snake Case"
- 
+
+
+
+Python Input Function: 
+ input() statement used to accept values (using keyboard) as a string from user.
+
+# Code - Input Function 
+i)
+a = input("Language = ")
+or 
+a = str(input("Language = "))
+
+print("I am styding ", a) 
+
+- O/P.:
+Language = Python
+I am styding Python
+
