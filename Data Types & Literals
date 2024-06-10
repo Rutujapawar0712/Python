@@ -29,3 +29,53 @@ vi)   Mapping   : dict
 vii)  Set       : set, frozenset
 viii) None Type : NoneType
 
+
+
+Typeconversion / Typecasting:
+ The conversion of one data type into other data type.
+
+Type of Typecasting:
+
+1) Implicit Typeconversion:
+    Conversion will be done by python interpreter from lower to higher data type automatically to prevent loss of data.
+
+# Code - Implicit Typeconversion
+i)
+a, b = 2, 3                 # Input is Integer Value
+print(a/b)
+
+- O/P.: 
+0.6666666666666666          # Output is Float value
+
+
+
+2) Explicit Typecasting: 
+    Conversion done by programmer as per requirement.
+
+# Code - Explicit Typecasting
+i)
+a = float(7)                # Convert - Int to Float
+print(a)
+print(type(a))
+
+- O/P.: 
+7.0
+<class 'float'>
+
+
+ii)
+a = input ("Enter First No.= ")
+b = input ("Enter Second No.= ")
+print(int(a) + float(b)) 
+
+or
+
+a = int (input ("Enter First No.= ")) 
+b = eval (input ("Enter Second No.= "))          # Int and float both 
+print(a+b) 
+
+- O/P.:
+Enter First No.= 1
+Enter Second No.= 7
+8.0
+
