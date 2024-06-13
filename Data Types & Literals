@@ -79,3 +79,29 @@ Enter First No.= 1
 Enter Second No.= 7
 8.0
 
+
+
+
+3) Literals: 
+    It is a syntax that is used to completely express a fixed value of a specific data type.
+ 
+ i) Character Literals: 
+     It is also a string literal type in which the character is enclosed in single (') or double (") quotes.
+
+# Code - Character Literals
+i)
+Character = 'A'   or   "A"
+print(Character)
+ 
+- O/P.:
+A
+
+
+ii)
+print(chr(65))           # Conversion - ASCII to Character
+print(ord('A'))          # Conversion - Character to ASCII
+
+- O/P.:
+A
+65
+
