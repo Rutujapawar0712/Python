@@ -137,3 +137,33 @@ String
       Literal                            
              Code
 
+
+
+
+String:
+ It is data type that stores a sequence of character.
+
+# Code - String
+i)
+print("123" + "456")                    # Output will be string concatenation
+or
+print(str(123) + "456")
+
+- O/P.: 
+123456
+
+
+ii)
+print(123 + "Hello")                    # Invalid - Different data type
+
+- O/P.: 
+unsupported operand type(s): 'int' + 'str'
+
+
+iii)
+String = "Python"  
+print(len(String))                      # Length of String
+
+- O/P.: 
+6
+
