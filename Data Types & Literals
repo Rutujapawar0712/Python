@@ -364,3 +364,17 @@ print(int(True))
 
 - O/P.:
 1
+
+
+
+
+ v) Special Literals: 
+     Python has a special literal ‘None’. It is used to denote nothing, no values, or the absence of value.
+
+# Code - Special Literals
+i)
+Input = None
+print(Input)
+
+- O/P.: 
+None
