@@ -105,3 +105,35 @@ print(ord('A'))          # Conversion - Character to ASCII
 A
 65
 
+
+
+ ii) String Literals: 
+      It is created by writing a text (a group of Characters) surrounded by a single('), double("), or triple(''') quotes.
+
+# Code - String Literals
+i)
+String = "Hello, 'World'"                 # String literal in single, double quotes  
+print(String)
+
+- O/P.:
+Hello, 'World'
+
+
+ii)
+print("1234567...")                        # Within double quote, numbers will be consider as string    
+
+- O/P.: 
+1234567...
+
+
+iii)
+String = '''String                              
+                  Literal                  # String literal in triple quotes for multi-line
+                         Code'''    
+print(String)
+
+- O/P.:
+String                              
+      Literal                            
+             Code
+
