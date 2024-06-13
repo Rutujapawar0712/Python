@@ -168,6 +168,7 @@ print(len(String))                      # Length of String
 6
 
 
+
 String Index: 
  Indexing allow to access individual characters in a string directly by using a numeric value.
 
@@ -186,3 +187,24 @@ print(String[-1])                       # Negative Index = len(List)-List[-ve in
 - O/P.: 
 P
 n
+
+
+
+String Slicing:
+ Accessing part of string.
+
+ Default Syntax:
+ str[starting index : length of string]  
+
+# Code - String Index Slicing
+i)
+String = "Python" 
+print(String[0:2])
+or
+print(String[:2])
+or
+print(String[-1:-2])                    # Invalid - Slicing should be left to right side
+
+- O/P.:
+Py
+
