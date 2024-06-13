@@ -293,3 +293,57 @@ print(String)
 
 - O/P.: 
 Keyword Order Format
+
+
+
+
+
+ iii) Numeric Literals:
+
+  iii.i) Integer Numeric Literals: 
+          It includes both positive and negative numbers along with 0. 
+          It doesn’t include fractional parts. 
+          It can also include binary, decimal, octal, hexadecimal literal.  
+
+           Binary      : (0 & 1). The base is 2 and prefixed with '0b'.
+           Decimal     : (0 to 9). The base is 10.
+           Octal       : (0 to 7). The base is 8. and prefixed with '0o'.
+           Hexadecimal : (0 to 9 & A to F). The base is 16. and prefixed with '0x'.
+                          
+# Code - Integer Literals
+i)
+print("Decimal value = ", 10)                               
+print("Binary value  = ", 0b1010)          
+
+- O/P.:
+Decimal value = 10
+Binary value  = 10
+
+
+
+  iii.ii) Float Numeric Literals: 
+           It includes both positive and negative real numbers.
+           It also includes fractional parts.
+
+# Code - Float Literals
+i)
+Float = (7.)     or     float(7)  
+print("Float value = ", Float)
+
+- O/P.:
+Float value = 7.0
+
+
+
+  iii.iii) Complex Numeric Literals:
+            It includes real numbers and imaginary numbers.
+
+# Code - Complex Literals
+i)
+Complex = complex(7,7)
+print("Complex value = ", Complex)
+
+- O/P.:
+Complex value = (7+7j)
+
+
