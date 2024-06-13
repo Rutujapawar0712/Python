@@ -208,3 +208,11 @@ print(String[-1:-2])                    # Invalid - Slicing should be left to ri
 - O/P.:
 Py
 
+
+ii)
+String = "Python"                       
+print(String[::-1])                     # [str index: end index: no. of jumps]
+
+- O/P.:
+nohtyP                                  # Reverse String
+
