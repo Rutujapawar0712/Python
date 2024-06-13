@@ -242,3 +242,54 @@ print(String.find("r"))
 -1                                      # 'r' is not Present
 
 
+
+Strings Formatting:
+ In an f-string, a placeholder {} can contain variables, operations, functions, and modifiers to format the value.
+
+1) Default Order Format:
+
+# Code - Default Order
+i)
+String = "Default"
+print(f"{String} Order Format")
+
+or
+
+print("{} Order Format".format("Default"))
+
+or
+
+print("{} {} {}".format('Default', 'Order', 'Format')) 
+
+- O/P.: 
+Default Order Format
+
+
+
+2) Positional Order Format:
+
+# Code - Positional Order 
+i)
+String = "{2} {0} {1}".format('Order', 'Format', 'Positional')             
+print(String)
+
+- O/P.: 
+Positional Order Format
+
+
+
+3) Keyword Order Format:
+
+# Code - Keyword Order
+i)
+String = "{K} {O} {F}".format(K = 'Keyword', O = 'Order', F = 'Format')       
+print(String)
+
+or
+
+K, O, F = "Keyword", "Order", "Format"
+String = "{a} {b} {c}".format(a = K, b = O, c = F)  
+print(String)
+
+- O/P.: 
+Keyword Order Format
