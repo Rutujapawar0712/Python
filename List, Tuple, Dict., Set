@@ -79,10 +79,10 @@ default Syntax:
 i)
 List = ['P', 'Y', 'T', 'H', 0, 'N', 7.]
 
-print(List[-5:-2])                   # Negative Index Slicing
+print(List[-5:-2])                      # Negative Index Slicing
 
-print(List[1:5])                     # Positive Index Slicing
-print(List[1:5:2])                   # [Strt index : End index : No. of jumps]
+print(List[1:5])                        # Positive Index Slicing
+print(List[1:5:2])                      # [Strt index : End index : No. of jumps]
 
 - O/P.: 
 ['T', 'H', 0]
@@ -99,3 +99,56 @@ print(List)
 
 - O/P.: 
 ['P', 'Y', 'HTML', 7.0]
+
+
+
+⫸ List Methods:
+    The main list will be updated and then printed.
+    append(ele), copy(), clear(), count(), extend(List2), index(), insert(index, ele), pop(), remove(), reverse(), sort(), min(), max()
+
+# Code - Append Method
+i)
+List = ['P', 'Y', 'T', 'H', 0, 'N']         
+
+List.append('7')                        # Add element at end of list
+print(List)
+
+print(List.append('7'))                 # Invalid - Output will be 'None' bcz method is directly mention in print function.
+
+- O/P.: 
+['P', 'Y', 'T', 'H', 0, 'N', '7']
+None
+
+
+# Code - Extend / Cocentation of the List
+i)
+List1 = ['P', 'Y', 'T', 'H']
+List2 = [0, 'N', 7.]
+
+List1.extend(List2) 
+print(List1)
+
+or
+
+Concate_List = List1 + List2
+print(Concate_List)
+
+- O/P.:
+['P', 'Y', 'T', 'H', 0, 'N', 7.0]
+
+
+# Code - Reverse Method
+i)
+List = ['P', 'Y', 'T', 'H', '0', 'N', '7.']
+
+List.reverse()                          # Reverse Order
+print(List) 
+
+List.sort(reverse = True)               # Descending Order   
+print(List)
+
+- O/P.: 
+['7.', 'N', '0', 'H', 'T', 'Y', 'P']
+
+['Y', 'T', 'P', 'N', 'H', '7.', '0']
+
