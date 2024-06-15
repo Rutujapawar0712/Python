@@ -81,3 +81,26 @@ print(Tuple[-2])                        # Negative Index = len(List) - List[-ve 
 T
 N
 
+
+
+⫸ Tuple Slicing:
+    Accessing part of tuple (Subtuple). 
+
+Default Syntax:
+[Start index (0) : Last index (Length of tuple)]
+
+# Code - Tuple Index Slicing
+i)
+Tuple = ('P','Y','T','H', 0, 'N', 7.)
+
+print(Tuple[-5:-1])                     # Negative Index Slicing
+
+print(Tuple[1:5])                       # Positive Index Slicing    
+print(Tuple[1:5:2])                     # [Strt index : End index : No. of jumps]
+
+- O/P.: 
+('T', 'H', 0, 'N')
+
+('Y', 'T', 'H', 0) 
+('Y', 'H')
+
