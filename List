@@ -67,3 +67,35 @@ print(List[-1][-3])
 7.0
 HTML
 
+
+
+⫸ List Slicing: 
+    Accessing part of list (Sublist).
+
+default Syntax:
+[Start index (0) : Last index (Length of list)]
+
+# Code - List Index Slicing
+i)
+List = ['P', 'Y', 'T', 'H', 0, 'N', 7.]
+
+print(List[-5:-2])                      # Negative Index Slicing
+
+print(List[1:5])                        # Positive Index Slicing
+print(List[1:5:2])                      # [Strt index : End index : No. of jumps]
+
+- O/P.: 
+['T', 'H', 0]
+
+['Y', 'T', 'H', 0] 
+['Y', 'H'] 
+
+
+# Code - Replace Sublist
+i)
+List = ['P', 'Y', 'T', 'H', 0, 'N', 7.]
+List[2:6] = ["HTML"]
+print(List)
+
+- O/P.: 
+['P', 'Y', 'HTML', 7.0]
