@@ -1,0 +1,29 @@
+ vi) Literals Collection:
+
+ ■ vi.iv) Set:
+           It is the unordered collection of comma-separated elements in curly braces ‘{}’.
+           It has unique, iterable, mutable.
+           It doesn't allow duplicate elements. 
+           The elements are immutable so we can add tuple as elements but not list and dict.
+
+# Code - Set
+i)
+Input = {}                              # Invalid for Set - It will be considered as Dictionary
+print(type(Input))
+
+Input = set()                           # Null set
+print(type(Input))
+
+- O/P.: 
+<class 'dict'>
+<class 'set'>
+
+
+ii)
+Set = {'P', 'Y', 'T', 'H', 0, 'N', 7.}
+print(Set)                
+print(len(Set))                         # Length of Set
+
+- O/P.: 
+{7.0, 'P', 'N', 'T', 'H', 0, 'Y'}
+7
