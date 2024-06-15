@@ -1,0 +1,62 @@
+ vi) Literals Collection:
+
+ ■ vi.iii) Dictionary: 
+            It is comma-separated set of key-value pairs enclose in curly braces '{}'.
+            They are unordered (No Indexing), mutuable(changeable).
+            It don't allow duplicate keys.
+            Key can be String, Numeric, Boolean or Tuple i.e. it must be immutable. 
+            Value can be String, Numeric, List, Tuple, Dict. etc.
+
+# Code - Dictionary
+i)
+Null_Dict = {}                          # Null Dict.
+print(Null_Dict)
+print(type(Null_Dict))
+
+- O/P.: 
+{}
+<class 'dict'>
+
+ii)
+Dict = {"No. of Sub.": "4", 
+        "Subjects": ["Python", "HTML", "CSS", "JS"]}
+
+print(Dict)
+print(len(Dict))
+
+- O/P.: 
+{'No. of Sub.': '4', 'Subjects': ['Python', 'HTML', 'CSS', 'JS']}
+2
+
+
+# Code - Accesing Information in Dictionary
+i)
+Dict = {"No. of Sub.": "4", 
+        "Subjects": ["Python", "HTML", "CSS", "JS"]}
+ 
+print(Dict["Subjects"])
+
+- O/P.: 
+['Python', 'HTML', 'CSS', 'JS']
+
+
+# Code - Replacing value of any Key.
+i)
+Dict = {"No. of Sub.": "4", "Subject": "Python"}
+
+Dict["No. of Sub."] = "1"
+print(Dict)
+
+- O/P.: 
+{'No. of Sub.': '1', 'Subject': 'Python'}
+
+
+# Code - Add Key to Dictionary
+i)
+Dict = {"No. of Sub.": "1", "Subject": "Python"}
+
+Dict["Topics"] = ("List", "Tuple", "Dict.", "Set")
+print(Dict)
+
+- O/P.: 
+{'No. of Sub.': '1', 'Subject': 'Python', 'Topics': ('List', 'Tuple', 'Dict.', 'Set')}
