@@ -152,3 +152,16 @@ print(List)
 
 ['Y', 'T', 'P', 'N', 'H', '7.', '0']
 
+
+
+⫸ Unpack a Collection:
+    If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+# Code - Unpack a Collection
+i)
+List = ["Python", "HTML", "JS"]
+a, b, c = List
+print(a, b, c)
+
+- O/P.: 
+Python HTML JS
