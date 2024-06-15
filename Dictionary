@@ -77,3 +77,29 @@ print (Dict["Subjects"]["Python"])
 - O/P.: 
 {'No. of Sub.': '4', 'Subject': {'Python': 99, 'HTML': 98, 'JS': 97}}
 99
+
+
+
+⫸ Dictionary Methods:
+    clear(), copy(), fromkeys(), get(key), items(), keys(), pop(), popitem(), setdefault(), update(), values()
+
+# Code - Get Method
+i)
+Dict = {"No. of Sub.": "1", "Subject": "Python"}
+
+print(Dict["Topics"])                   # Output will be 'Error' if key is not present
+or
+print(Dict.get("Topics"))               # More Prferable - Output will be 'None' if key is not present
+
+- O/P.: 
+KeyError: 'Topics'
+None
+
+
+# Code - Item Method
+i)
+Dict = {"No. of Sub.": "1", "Subject": "Python"}
+print(Dict.items())                                  # Return all key:value pair as a Tuple
+
+- O/P.: 
+dict_items([('No. of Sub.', '1'), ('Subject', 'Python')])
