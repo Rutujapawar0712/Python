@@ -25,3 +25,45 @@ print("Length = ", len(List))           # Length of List
 ['P', 'Y', 'T', 'H', 0, 'N', 7.0]
 Length = 7
 
+
+
+⫸ List Index:
+    Access individual character by using numeric value.
+
+# Code - List Index Accessing
+i)
+     ➡️  0    1    2    3   4   5   6
+List = ['P', 'Y', 'T', 'H', 0, 'N', 7.] 
+        -7   -6   -5   -4  -3  -2  -1  ⬅️
+
+print(List[2])                          # Positive Index Accessing
+print(List[-2])                         # Negative Index = len(List) - List[-ve index]
+
+- O/P.: 
+T
+N
+
+
+# Code - Replace Element
+i)
+List = ['P', 'Y', 'T', 'H', 0, 'N', 7.] 
+List[6] = "HTML"
+print(List)
+
+- O/P.: 
+['P', 'Y', 'T', 'H', 0, 'N', 'HTML']
+
+
+# Code - Multidimensional List Index Accessing
+i)
+       ➡️  00     01      10      11     12
+List = [['Python', 7.], ['HTML', 'CSS', 'JS']]         # Multi-Dimensional List
+          -2-2   -2-1    -1-3    -1-2   -1-1  ⬅️
+
+print(List[0][1]) 
+print(List[-1][-3])
+
+- O/P.: 
+7.0
+HTML
+
