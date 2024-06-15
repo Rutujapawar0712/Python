@@ -27,3 +27,28 @@ print(len(Set))                         # Length of Set
 - O/P.: 
 {7.0, 'P', 'N', 'T', 'H', 0, 'Y'}
 7
+
+
+
+⫸ Set Methods:
+    add(ele), clear(), copy(), difference() / (-), difference_update() / (-=), discard(), intersection() / (&), intersection_update() / (&=), 
+    isdisjoint(), issubset() / (<=) / (<), issuperset() / (>=) / (>), pop(), remove(), symmetric_difference() / (^), symmetric_difference_update() / (^=), 
+    union() / (|), update() / (|=)
+
+# Code - Methods
+i)
+Set = {'P', 'Y', 'T', 'H', 'N'}
+Set.add((0, 7))                         # Add Tupple
+print(Set) 
+
+- O/P.: 
+{'P', (0, 7), 'Y', 'N', 'T', 'H'}
+
+
+ii)
+Set = {'P', 'Y', 'T', 0, 'H', 'N'}
+Set.pop()                               # Randomly Remove any Element 
+print(Set) 
+
+- O/P.: 
+{'H', 'T', 'P', 'Y', 'N'}
