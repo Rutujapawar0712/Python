@@ -60,3 +60,20 @@ print(Dict)
 
 - O/P.: 
 {'No. of Sub.': '1', 'Subject': 'Python', 'Topics': ('List', 'Tuple', 'Dict.', 'Set')}
+
+
+
+⫸ Nested Dictionary:
+    In Key: Value pair, dictionary value contains another dictionary.
+
+# Code - Accessing Nested Dictionary
+i)
+Dict = {"No. of Sub.": "4", 
+        "Subjects": {"Python": 99, "HTML": 98, "JS": 97}}
+
+print (Dict)
+print (Dict["Subjects"]["Python"])
+
+- O/P.: 
+{'No. of Sub.': '4', 'Subject': {'Python': 99, 'HTML': 98, 'JS': 97}}
+99
