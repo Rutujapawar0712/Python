@@ -1,0 +1,27 @@
+ vi) Literals Collection: 
+
+ ■ vi.i) List: 
+         It is a list of comma-separated elements or values represented in square [] brackets. 
+         The values can be of any data type and can be changed (mutable).
+         It allows duplicate values.
+
+# Code - List
+i)
+Null_List = []                          # Null List
+print(Null_List)
+print(type(Null_List))                  # Data Type 
+
+- O/P.: 
+[]
+<class 'list'>
+
+
+ii)
+List = ['P', 'Y', 'T', 'H', 0, 'N', 7.] 
+print(List)                
+print("Length = ", len(List))           # Length of List
+
+- O/P.: 
+['P', 'Y', 'T', 'H', 0, 'N', 7.0]
+Length = 7
+
