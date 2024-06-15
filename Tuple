@@ -1,0 +1,64 @@
+ vi) Literal Collections:
+
+ ■ vi.ii) Tuple: 
+           It is also a list of comma-separated elements or values in round () brackets. 
+           The values can be of any data type but can’t be changed (immutable).
+           It allows duplicate values.
+
+# Code - Tuple
+i)
+Null_Tuple = ()                    # Null Tuple
+print(Null_Tuple)
+
+- O/P.: 
+()
+
+
+ii)
+Input = (7)                        # Invalid for tuple - Python will consider it as interger
+print(type(Input))           
+
+Input = (7,)                       # For single element ',' is compulsary to create tuple
+print(type(Input))
+
+print(len(Input))                  # Length of Tuple
+
+- O/P.: 
+<class 'int'>
+<class 'tuple'>
+1
+
+
+# Code - Concatenation of Tuples
+i)
+Tuple1 = ('P', 'Y', 'T', 'H')
+Tuple2 = ( 0, 'N', 7.)
+
+Concate_Tuple = Tuple1 + Tuple2
+print(Concate_Tuple)
+
+- O/P.:
+('P', 'Y', 'T', 'H', 0, 'N', 7.0)
+
+
+# Code - Repetitions of Tuples
+i)
+Tuple = ('Python', 7.)
+Repeat_Tuple = Tuple * 2
+print(Repeat_Tuple)
+
+- O/P.:
+('Python', 7.0, 'Python', 7.0)
+
+
+# Code - Deleting a tuple
+i)
+Tuple = ('P', 'Y', 'T', 'H', 0, 'N', 7.)
+print(Tuple)
+
+del Tuple
+print(Tuple)
+
+- O/P.:
+('P', 'Y', 'T', 'H', 0, 'N', 7.0)
+NameError: name 'Tuple' is not defined.
