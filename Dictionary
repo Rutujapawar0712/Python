@@ -103,3 +103,22 @@ print(Dict.items())                                  # Return all key:value pair
 
 - O/P.: 
 dict_items([('No. of Sub.', '1'), ('Subject', 'Python')])
+
+
+
+⫸ Conversion / Typecasting:
+
+# Code - Converting Dictionary into a List
+i)
+Dict = {"No. of Sub.": "1", "Subject": "Python"}
+
+print (list(Dict[]))
+or
+List = (list(Dict))                             
+print(List)
+
+print(List[0])                          # Accessing List Index
+
+- O/P.: 
+['No. of Sub.', 'Subject']
+'No. of Sub.
