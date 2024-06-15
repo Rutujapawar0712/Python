@@ -127,3 +127,25 @@ print(Tuple.index(7, 2, 8))             # (Ele, Strt index, End index)
 
 - O/P.: 
 6
+
+
+
+⫸ Conversion:
+    For performing different method that are not available in tuple, need to convert tuple into list, perform methods and again convert list into tuple.
+
+# Code - Converting String into a Tuple
+i)
+print(tuple('Python'))
+
+- O/P.:
+('P', 'y', 't', 'h', 'o', 'n')
+
+
+# Code - Converting List into a Tuple
+i)
+List = ['P', 'Y', 'T', 'H', '0', 'N', '7']
+print(tuple(List))
+
+- O/P.:
+('P', 'Y', 'T', 'H', '0', 'N', '7')
+
