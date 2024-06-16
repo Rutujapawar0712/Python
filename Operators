@@ -1,0 +1,23 @@
+4) Operators: 
+    It is Symbol to perform a certain operation between operands.
+
+ ■ i) Arithmetic Operators: 
+       Addition (+), Subtraction (-), Multiplication	(*), Exponentiation (**), Division (/), Modulus (%), Floor division (//)
+
+
+# Code - Modulus (%) operator
+i)
+a, b = 10, 20
+print(a % b)                  # Output = Remainder
+
+- O/P.: 
+10
+
+
+# Code - Floor division (//) operator
+i)
+a, b = 10, 20
+print(a // b)                 # Output = Integer Quotient 
+
+- O/P.: 
+0
