@@ -57,3 +57,26 @@ print("b = ", b)
 a = 10485760 
 b = 20
 
+
+
+ ■ iii) Relational / Comparison Operators: 
+         Equal (==), Not Equal (!=), Greater than (>), Less than (<), Greater than or equal to (>=), Less than or equal to (<=)
+
+
+# Code - Not Equal	(!=) operator
+i)
+a, b = 10, 20 
+print(a != b) 
+
+- O/P.:  
+True
+
+
+# Code - Greater than or equal to (>=) operator
+i)
+a, b = 10, 20 
+print(a >= b) 
+
+- O/P.:  
+False
+
