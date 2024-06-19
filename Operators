@@ -21,3 +21,39 @@ print(a // b)                 # Output = Integer Quotient
 
 - O/P.: 
 0
+
+
+
+ ■ ii) Assignment Operators: 
+        It performed the certain operations and assign answer to left side variable.
+
+        Equal (=), Add and Assign (+=), Subtract and Assign (-=), Multiply and Assign (*=), Exponent and Assign (**=), 
+
+        Divide and Assign (/=), Modulus and Assign (%=), Divide(floor) and Assign (//=), 
+        
+        Bitwise AND (&=), Bitwise OR (|=), Bitwise XOR (^=), Bitwise Right Shift(>>=), Bitwise Left Shift(<<=)
+
+
+# Code - Exponent and Assign (**=) operator
+i)
+a, b = 10, 20
+a **= b                       # a = a**b
+print("a = ", a)
+print("b = ", b)
+
+- O/P.:  
+a = 100000000000000000000 
+b = 20
+
+
+# Code - Bitwise Left Shift (<<=) operator
+i)
+a, b = 10, 20
+a <<= b                       # a = a<<b
+print("a = ", a)
+print("b = ", b)
+
+- O/P.:  
+a = 10485760 
+b = 20
+
