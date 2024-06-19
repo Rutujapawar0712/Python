@@ -80,3 +80,26 @@ print(a >= b)
 - O/P.:  
 False
 
+
+
+ ■ iv) Bitwise Operators:
+        Bitwise AND (&), Bitwise OR (|), Bitwise NOT (~), Bitwise XOR (^), Bitwise Right Shift (>>), Bitwise Left Shift (<<)
+
+
+# Code - Bitwise NOT (~) operator
+i)
+a, b = 10, 20
+print(~ a)   
+
+- O/P.: 
+-11
+
+
+# Code - Bitwise Right Shift (>>) operator
+i)
+a, b = 10, 20
+print(a >> b) 
+
+- O/P.: 
+0
+
