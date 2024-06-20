@@ -148,3 +148,21 @@ print(a is not b)             # a is not the same object as b, even if they have
 True
 True
 
+
+
+ ■ vii) Membership Operators: 
+         It is used to test whether a value or variable is a member of a sequence, such as a string, list, or tuple. 
+
+         'in', 'not in'
+
+# Code - Membership operators
+i)                             
+a = ['P', 'Y', 'T', 'H', 0, 'N', 7.]     # 7. is 'Float' Data type
+
+print('7.' in a)                         # '7.' will be consider as 'String' 
+
+print("HTML" not in a)
+
+- O/P.:  
+False
+True
