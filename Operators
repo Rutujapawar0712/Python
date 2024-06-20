@@ -166,3 +166,84 @@ print("HTML" not in a)
 - O/P.:  
 False
 True
+
+
+
+⫸ Expression Executions (Rule of BODMAS):
+
+# Code - Expression Executions
+
+i) String and Numeric can operate together with '*'.
+ 
+a, b = 2, 3
+Char = "@"
+print(a*Char*b)
+
+- O/P.: 
+@@@@@@
+
+
+ii) String and String can operate together with '+'.
+
+a, b = "2", 3
+Char = "@"
+print((a+Char)*b)
+
+- O/P.: 
+2@2@2@
+
+
+iii) Numeric value can operate with all arithmetic operator.
+
+a, b = 2, 3
+c = 4
+print((a+c)*b)
+
+- O/P.: 
+18
+
+
+iv) Arithmetic expressions with integer and float will result in float.
+
+a, b = 2, 3.
+print(a*b)
+
+- O/P.: 
+6.0
+
+
+v) Division operator with two integer will be float.
+
+a, b = 2, 3
+print(a/b)
+
+- O/P.: 
+0.6666666666666666
+
+
+vi) Interger Division with integer and float will result in int but display as float.
+
+a, b = 2, 3.
+print(a//b)
+
+- O/P.: 
+0.0
+
+
+vii) Floor gives closet integer, which is lesser than or equal to the float value.
+     Result of (a//b) is same as floor(a/b)
+
+a, b = -2, 3
+print(a//b)
+
+- O/P.: 
+-1
+
+
+viii) Remainder is negative only when denominator is negative.
+
+a, b = 3, -2
+print(a%b)
+
+- O/P.: 
+-1
