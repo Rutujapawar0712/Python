@@ -69,3 +69,10 @@ print ("Abc_123".isidentifier())          # Valid
 
 - O/P.:
 TRUE
+
+
+
+5) Punctuators: 
+    These are the symbols that used in Python to organize the structures, statements, and expressions.
+    
+    Brackets [ ], Parentheses ( ), Braces { }, Comma (,), Semicolon (;), Colon (:), Asterisk (*), Equal sign (=), Pound sign (#)
