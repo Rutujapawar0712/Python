@@ -125,3 +125,26 @@ print(a or b)
 
 - O/P.:  
 True
+
+
+
+ ■ vi) Identity Operators:
+        It is a comparison operator, used to determine whether two variables refer to the same object in memory. 
+        
+        'is', 'is not'
+
+
+# Code - Identity operators
+i)
+a = ['P', 'Y', 'T', 'H', 0, 'N', 7.]
+b = ['P', 'Y', 'T', 'H', 0, 'N', 7.]
+c = a
+
+print(a is c)                 # c is the same object as a
+
+print(a is not b)             # a is not the same object as b, even if they have the same content
+
+- O/P.:  
+True
+True
+
