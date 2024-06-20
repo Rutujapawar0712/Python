@@ -103,3 +103,25 @@ print(a >> b)
 - O/P.: 
 0
 
+
+
+ ■ v) Boolean / Logical operators:
+       Logical NOT (not), Logical AND (and), Logical OR (or)
+
+
+# Code for Logical NOT (not) operator
+i)
+a = True 
+print(not a) 
+
+- O/P.:  
+False
+
+
+# Code - Logical OR (or) operator
+i)
+a, b = False, True
+print(a or b) 
+
+- O/P.:  
+True
