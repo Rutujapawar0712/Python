@@ -42,3 +42,35 @@ Enter No.1 = 10
 Enter No.2 = 20
 Enter No.3 = 30
 Greatest Number = 30
+
+
+
+
+🤔 Q. Write a program to find greatest of 4 numbers entered by the user. 
+
+# Code
+
+a = int(input("Enter No.1 = "))
+b = int(input("Enter No.2 = "))
+c = int(input("Enter No.3 = "))
+d = int(input("Enter No.4 = "))
+
+if (a>=b and a>=c and a>=d):
+  print("Greatest Number = ", a)
+
+elif (b>=c and b>=d):
+  print("Greatest Number = ", b)
+
+elif (c>=d):
+  print("Greatest Number = ", c)
+
+else:
+  print("Greatest Number = ", d)
+
+
+- O/P.: 
+Enter No.1 = 10
+Enter No.2 = 20
+Enter No.3 = 30
+Enter N0.4 = 40
+Greatest Number = 40
