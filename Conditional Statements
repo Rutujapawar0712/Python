@@ -22,3 +22,28 @@ if a > b:
 
 - O/P.:
 a is greater than b
+
+
+
+■ 2) If Else Statement:
+      Intepreter check else statement only if "if" statement is false.
+
+⫸ Syntax:
+
+if (Condition):
+  Statement
+else:
+  Statement
+
+
+# Code for If Else Statement
+i)
+a, b = 10, 20
+if (a > b):
+  print("a is greater than b")
+else:
+  print("b is greater than a")
+
+- O/P.:
+b is greater than a
+
