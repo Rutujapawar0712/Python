@@ -105,3 +105,20 @@ else:
 
 - O/P.:
 b is greater than 10
+
+
+
+■ 5) Ternary Statement | Short Hand If Else Statement:
+
+⫸ Syntax:
+
+Statement if (Condition) else Statement
+
+
+# Code for Ternary Statement 
+i)
+a, b = 330, 330
+print("A") if a > b else print("Equal") if a == b else print("B")
+
+- O/P.:
+Equal
