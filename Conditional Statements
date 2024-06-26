@@ -1,0 +1,24 @@
+Conditional Statements:
+ It provide different outcomes depending on the condition evaluated.
+ Python uses indentation to identify a block.
+
+
+■ 1) If Statement:
+      Intepreter always check if statement.
+
+⫸ Syntax:
+
+if Condition:
+  Statement
+ or
+  pass                        # In case if statement with no content, put in the pass statement to avoid getting an error.
+
+
+# Code for If Statement
+i)
+a, b = 20, 10
+if a > b:
+  print("a is greater than b")
+
+- O/P.:
+a is greater than b
