@@ -37,3 +37,25 @@ else:
 - O/P.:  
 Enter No. = 7
 Odd Number
+
+
+
+
+🤔 Q. Write a program to identify the number is even or odd using function.
+
+# Code
+
+def Even_Odd(no):
+
+  if (no%2 == 0):
+    print("Even Number")
+  else:
+    print("Odd Number")
+
+No = int(input("Enter Number = "))
+Even_Odd(No)
+
+
+- O/P.:
+Enter Number = 7
+Odd Number
