@@ -1,0 +1,19 @@
+🤔 Q. Write a program to input 2 int no.s & print 'True' if a is greater than or equal to b and if not print 'False'.
+
+# Code
+
+a = eval(input("Enter No.1 = "))
+b = eval(input("Enter No.2 = "))
+
+if (a>=b):
+  print("True")
+else:
+  print("False")
+
+
+- O/P.:  
+Enter No.1 = 18
+Enter No.2 = 7
+True
+
+
