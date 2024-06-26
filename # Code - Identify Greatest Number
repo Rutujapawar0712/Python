@@ -17,3 +17,28 @@ Enter No.2 = 7
 True
 
 
+
+
+🤔 Q. Write a program to find greatest of 3 numbers entered by the user. 
+
+# Code
+
+a = int(input("Enter No.1 = "))
+b = int(input("Enter No.2 = "))
+c = int(input("Enter No.3 = "))
+
+if (a>=b and a>=c):
+ print("Greatest Number = ", a)
+
+elif (b>=c):
+ print("Greatest Number = ", b)
+
+else:
+ print("Greatest Number = ", c)
+
+
+- O/P.: 
+Enter No.1 = 10
+Enter No.2 = 20
+Enter No.3 = 30
+Greatest Number = 30
