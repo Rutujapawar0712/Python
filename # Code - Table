@@ -14,3 +14,23 @@ else:
 - O/P.:  
 Enter No. = 77
 Number is multiple of 7
+
+
+
+
+🤔 Q. Write a program to print number from 100 to 1.
+
+# Code
+
+for no in range(100, 0, -1):
+  print(no)
+
+
+- O/P.:
+100
+99
+.
+.
+.
+2
+1
