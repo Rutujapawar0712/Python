@@ -47,3 +47,30 @@ else:
 - O/P.:
 b is greater than a
 
+
+
+■ 3) Nested If Statement:
+
+⫸ Syntax:
+
+if (Condition):
+  Statement
+  if (Condition): 
+    Statement
+else:
+  Statement
+
+
+# Code for Nested If Statement
+i)
+a, b = 10, -20
+if a > 0 & b > 0:
+  if a > b:
+    print("a is greater than b")
+  else:
+    print("b is greater than a")
+else:
+  print("Invalid Number")
+
+- O/P.:
+Invalid Number
