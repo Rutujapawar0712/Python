@@ -1,0 +1,16 @@
+🤔 Q. Write a program to check if a number is a multiple of 7 or not.
+
+# Code
+
+a = int(input("Enter No. = "))
+
+if (a%7 == 0):
+  print("Number is multiple of 7")
+
+else:
+  print("Number is NOT multiple of 7")
+
+
+- O/P.:  
+Enter No. = 77
+Number is multiple of 7
