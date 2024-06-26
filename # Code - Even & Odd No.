@@ -17,3 +17,23 @@ while (No <= 10):
 5
 7
 9
+
+
+
+
+🤔 Q. Write a program to check is number entered by the user is odd or even.
+
+# Code
+
+a = int(input("Enter No. = "))
+
+if (a%2 == 0):
+  print("Even Number")
+
+else:
+  print("Odd Number")
+
+
+- O/P.:  
+Enter No. = 7
+Odd Number
