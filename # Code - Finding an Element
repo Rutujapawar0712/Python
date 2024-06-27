@@ -9,3 +9,41 @@ print("No. of Occurence = ", a.count("$"))
 - O/P.:
 Enter Language = P@y$t&h$o@n
 No. of Occurence = 2
+
+
+
+
+🤔 Q. Write a program to search for a number x in this tuple using while loop.
+      (1, 4, 9, 16, 25, 36, 49, 64, 81, 100) - Linear Search
+
+# Code
+
+No = int(input("Enter Number = "))
+
+Tuple = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 25)
+Index = 0
+
+while Index < len(Tuple):
+
+  if (Tuple[Index] == No):
+    print("Number found in Tuple at Index = ", Index)
+  else:
+    print("Finding")
+
+  Index += 1
+
+
+- O/P.:
+Enter Number = 25
+Finding
+Finding
+Finding
+Finding
+Number found in Tuple at Index = 4
+Finding
+Finding
+Finding
+Finding
+Finding
+Number found in Tuple at Index = 10
+
