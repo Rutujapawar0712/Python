@@ -47,3 +47,28 @@ Finding
 Finding
 Number found in Tuple at Index = 10
 
+
+
+
+🤔 Q. Write a program to search for a number x in this tuple using for loop.
+      (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 25)
+
+# Code
+
+Number = int(input("Enter Number = "))
+
+Tuple = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 25)
+Index = 0
+
+for x in Tuple:
+
+  if (x == Number):
+    print("Number found in Tuple at Index = ", Index)
+  Index += 1
+
+
+- O/P.:
+Enter Number = 25
+Number found in Tuple at Index = 4
+Number found in Tuple at Index = 10
+
