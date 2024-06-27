@@ -284,3 +284,25 @@ List_Element (List2)
 - O/P.:
 1  4  9  16  25  36  49  64  81  100
 P  Y  T  H  0  N  7
+
+
+
+
+🤔 Q. Write a program to print length of list using function. (List is the parameter)
+
+# Code
+
+List1 = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+List2 = ['P', 'Y', 'T', 'H', '0', 'N', '7']
+
+def List_Length (List):
+  print(len(List))
+
+List_Length (List1)
+List_Length (List2)
+
+
+- O/P.:
+10
+7
+
