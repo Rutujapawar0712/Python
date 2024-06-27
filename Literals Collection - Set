@@ -69,3 +69,21 @@ print(Set)
 - O/P.:
 {9, '9.0', (9.0,)}
 
+
+
+
+🤔 Q. You are given a list of subjects for students. Assume 1 classroom is required for 1 subject. How many classrooms are needed for all students.
+       ("Python", "Java", "C++", "Python", "Javascript", "Java", "Python", "Java", " C++", "C")
+
+# Code
+
+Subjects = {"Python", "Java", "C++", "Python", "Javascript", "Java", "Python", "Java", "C++", "C"}
+
+print(Subjects)
+print("No. of classroom needed = ", len(Subjects))
+
+
+- O/P.:
+{'Python', 'Javascript', 'C', 'C++', 'Java'}
+No. of classroom needed = 5
+
