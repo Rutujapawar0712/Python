@@ -14,3 +14,26 @@ print("Factorial = ", Fact)
 - O/P.:
 Enter Number = 7
 Factorial = 5040
+
+
+
+
+🤔 Q. Write a program to find factorial of n using function. (n is the parameter)
+
+# Code
+
+def Factorial(n):
+  Fact = 1
+
+  for x in range(1, n+1):
+    Fact = Fact * x
+
+  print("Factorial = ", Fact)
+
+No = int(input("Enter No. = "))
+Factorial(No)
+
+
+- O/P.:
+Enter No. = 7
+Factorial = 5040
