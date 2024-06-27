@@ -235,3 +235,28 @@ while Index < len(List):
 64
 81
 100
+
+
+
+
+🤔 Q. Write a program to print the elements of the following list using for loop.
+       [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# Code
+
+List = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for ele in List:
+    print(ele)
+
+
+- O/P.:
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
