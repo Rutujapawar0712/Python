@@ -260,3 +260,27 @@ for ele in List:
 64
 81
 100
+
+
+
+
+🤔 Q. Write a program to print the elements of a list in a single line using function. (List is the parameter)
+       [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# Code
+
+List1 = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+List2 = ['P', 'Y', 'T', 'H', '0', 'N', '7']
+
+def List_Element (List):
+  for ele in List:
+    print(ele, end="  ")
+
+List_Element (List1)
+print()
+List_Element (List2)
+
+
+- O/P.:
+1  4  9  16  25  36  49  64  81  100
+P  Y  T  H  0  N  7
