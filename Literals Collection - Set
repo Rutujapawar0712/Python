@@ -52,3 +52,20 @@ print(Set)
 
 - O/P.: 
 {'H', 'T', 'P', 'Y', 'N'}
+
+
+
+
+
+🤔 Q. Figure out a way to store 9 & 9.0 a seperate value in set. 
+       (Refer build-in data types).
+
+# Code
+
+Set = {9, "9.0", (9.0,)}
+print(Set)
+
+
+- O/P.:
+{9, '9.0', (9.0,)}
+
