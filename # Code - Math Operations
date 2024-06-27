@@ -29,3 +29,21 @@ print("Average = ", Avg)
 Enter No.1 = 7.12
 Enter No.2 = 18.09
 Average = 12.605
+
+
+
+
+🤔 Q. Write a program to convert INR to USD.
+
+# Code
+
+def RupeeToDoller(USD):
+  INR = USD * 80
+  print(USD, "Dollers = ", INR, "Rupees")
+
+RupeeToDoller(7)
+
+
+- O/P.:
+7 Dollers = 560 Rupees
+
