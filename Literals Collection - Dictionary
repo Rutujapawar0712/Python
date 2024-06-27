@@ -122,3 +122,35 @@ print(List[0])                          # Accessing List Index
 - O/P.: 
 ['No. of Sub.', 'Subject']
 'No. of Sub.
+
+
+
+
+
+🤔 Q. Write a program to enter marks of 3 subjects from the user and store them in dictionary. Start with an empty dictionary & add one by one. 
+      Use subject name as key & marks as value.
+
+# Code
+
+Result = {}
+
+Marks = int(input("Enter Marks of Python = "))
+Result["Python"] = Marks
+
+Marks = int(input("Enter Marks of HTML = "))
+Result.update({"HTML" : Marks})
+
+Subject = str(input("Enter Other Subject = "))
+Marks = int(input("Enter Marks of Other Subject = "))
+Result.update({Subject : Marks})
+
+print(Result)
+
+
+- O/P.:
+Enter Marks of Python = 99
+Enter Marks of HTML = 98
+Enter Other Subject = JS
+Enter Marks of Other Subject = 97
+{'Python': 99, 'HTML': 98, 'JS': 97}
+
