@@ -1,0 +1,12 @@
+🤔 Q. Write a program to input side of square & print its area.
+
+# Code
+
+Side = eval(input("Enter length of side = "))
+Area = Side * Side
+print("Area of Square = ", Area)
+
+
+- O/P.:
+Enter length of side = 7
+Area of Square = 49
