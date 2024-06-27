@@ -1,0 +1,16 @@
+🤔 Q. Write a program to find the factorial of first n Number.
+
+# Code
+
+No = int(input("Enter Number = "))
+Fact = 1
+
+for x in range(1, No+1):
+  Fact = Fact*x
+  
+print("Factorial = ", Fact)
+
+
+- O/P.:
+Enter Number = 7
+Factorial = 5040
