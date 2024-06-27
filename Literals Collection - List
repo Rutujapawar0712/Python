@@ -207,3 +207,31 @@ Enter Movie 1 = abc
 Enter Movie 2 = rst
 Enter Movie 3 = xyz
 ['abc', 'rst', 'xyz']
+
+
+
+
+🤔 Q. Write a program to print element of the following list using while loop.
+       [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# Code
+
+List = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Index = 0
+
+while Index < len(List):
+  print(List[Index])
+  Index += 1
+
+
+- O/P.:
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
