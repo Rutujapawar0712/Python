@@ -10,3 +10,22 @@ print("Area of Square = ", Area)
 - O/P.:
 Enter length of side = 7
 Area of Square = 49
+
+
+
+
+🤔 Q. Write a program to input 2 floating point no.s & print their average.
+
+# Code
+
+No1 = float(input("Enter No.1 = "))
+No2 = float(input("Enter No.2 = "))
+
+Avg = (No1 + No2) / 2
+print("Average = ", Avg)
+
+
+- O/P.:  
+Enter No.1 = 7.12
+Enter No.2 = 18.09
+Average = 12.605
