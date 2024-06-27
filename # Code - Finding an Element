@@ -1,0 +1,11 @@
+🤔 Q. Write a program to find occurence of $ in a string.
+
+# Code
+
+a = input("Enter Language = ")
+print("No. of Occurence = ", a.count("$"))
+
+
+- O/P.:
+Enter Language = P@y$t&h$o@n
+No. of Occurence = 2
