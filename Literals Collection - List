@@ -165,3 +165,21 @@ print(a, b, c)
 
 - O/P.: 
 Python HTML JS
+
+
+
+
+
+🤔 Q. Write a program to store the below values in a list & sort them from "A" to "D".
+       ["C", "D", "A", "A", "B", "B", "A"]
+
+# Code
+
+Grades = ["C", "D", "A", "A", "B", "B", "A"]
+Grades.sort()
+print(Grades)
+
+
+- O/P.:
+['A', 'A', 'A', 'B', 'B', 'C', 'D']
+
