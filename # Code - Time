@@ -1,0 +1,26 @@
+🤔 Q. Write a program to display greeting as per time.
+
+# Code
+
+import time
+Time = time.strftime ('%H:%M:%S')
+print("Current Time = ", Time)
+
+HTime = int(time.strftime ('%H'))
+
+if (5 <= HTime < 12):
+  print("Good Morning") 
+
+elif (12 <= HTime < 17):
+  print("Good Afternoon") 
+
+elif (17 <= HTime <=22):
+  print("Good Evening") 
+
+else:
+  print("Good Night")   
+
+
+- O/P.:
+Current Time = 17:40:07
+Good Evening
