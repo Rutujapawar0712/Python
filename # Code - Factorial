@@ -37,3 +37,25 @@ Factorial(No)
 - O/P.:
 Enter No. = 7
 Factorial = 5040
+
+
+
+
+🤔 Q. Write a program to find the sum of natural number.
+
+# Code
+
+No = int(input("Enter Number = "))
+Count = 1
+Sum = 0
+
+while Count <= No:
+  Sum = Sum + Count
+  Count += 1
+  
+print("Total Sum = ", Sum)
+
+
+- O/P.:
+Enter Number = 7
+Total Sum = 28
