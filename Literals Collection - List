@@ -183,3 +183,27 @@ print(Grades)
 - O/P.:
 ['A', 'A', 'A', 'B', 'B', 'C', 'D']
 
+
+
+
+🤔 Q. Write a program to ask the user to enter names of their 3 favorite movies & store them in a list.
+
+# Code
+
+Movies = []
+
+Mov = input("Enter Movie 1 = ")
+Movies.append(Mov)
+
+Movies.append(input("Enter Movie 2 = "))
+
+Movies.append(input("Enter Movie 3 = "))
+
+print(Movies)
+
+
+- O/P.:
+Enter Movie 1 = abc
+Enter Movie 2 = rst
+Enter Movie 3 = xyz
+['abc', 'rst', 'xyz']
