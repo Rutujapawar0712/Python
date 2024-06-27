@@ -14,7 +14,7 @@ if Condition:
   pass                        # In case if statement with no content, put in the pass statement to avoid getting an error.
 
 
-# Code for If Statement
+# Code - If Statement
 i)
 a, b = 20, 10
 if a > b:
@@ -36,7 +36,7 @@ else:
   Statement
 
 
-# Code for If Else Statement
+# Code - If Else Statement
 i)
 a, b = 10, 20
 if (a > b):
@@ -61,7 +61,7 @@ else:
   Statement
 
 
-# Code for Nested If Statement
+# Code - Nested If Statement
 i)
 a, b = 10, -20
 if a > 0 & b > 0:
@@ -91,7 +91,7 @@ else:
   Statement
 
 
-# Code for Elif Statement
+# Code - Elif Statement
 i)
 a, b = 10, 20
 if (a == b):
@@ -115,7 +115,7 @@ b is greater than 10
 Statement if (Condition) else Statement
 
 
-# Code for Ternary Statement 
+# Code - Ternary Statement 
 i)
 a, b = 330, 330
 print("A") if a > b else print("Equal") if a == b else print("B")
