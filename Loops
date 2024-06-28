@@ -1,0 +1,26 @@
+Loops:
+ It is used to repeat instructions.
+
+■ 1) While Loop:
+
+⫸ Syntax:
+
+Create Iterator
+While Condition:
+  Statement 
+  Iteration ↑ / ↓
+
+
+# Code - While Loop
+i)
+Count = 1                     # Count is Iterator
+while Count <= 5:             # Stopping Condition
+  print(Count)
+  Count += 1                  # Loop 1 = Iteration 1
+
+- O/P.:
+1
+2
+3
+4
+5
