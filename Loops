@@ -24,3 +24,26 @@ while Count <= 5:             # Stopping Condition
 3
 4
 5
+
+
+
+⫸ Break & Continue:
+
+⫸ Break:
+    It is used to terminate the loop when encountered.
+
+# Code - Break
+i)
+Count = 1                     
+while Count <= 5:            
+  print(Count)
+  
+  if (Count == 3):
+    break
+
+  Count += 1
+
+- O/P.:
+1
+2
+3
