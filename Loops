@@ -115,7 +115,7 @@ else:
   Statement
 
 
-# Code - For Loop
+# Code - For Loop with Else
 i)
 String = "Python"
 
