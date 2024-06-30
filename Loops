@@ -132,3 +132,26 @@ P
 y
 t
 h
+
+
+
+⫸ Range in Loop:
+    Start index and Step is optional
+
+⫸ Syntax:
+
+range(Start,     Stop*   , Step)
+range(  0  , len(Literal),  1  )       # Default
+
+
+# Code - Range in Loop
+i)
+for no in range(5):
+  print(no)
+
+- O/P.:
+0
+1
+2
+3
+4
