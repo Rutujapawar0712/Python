@@ -101,3 +101,34 @@ h
 o
 n
 
+
+
+ ■ ii) For Loop with Else:
+        Else code is executed only when the entire loop has finished without a break statement.
+
+⫸ Syntax:
+
+Create Literal
+for x in Literal:
+  print(x)
+else:             
+  Statement
+
+
+# Code - For Loop
+i)
+String = "Python"
+
+for Char in String:
+  if (Char == 'o'):
+    break
+  print(Char)
+
+else:
+  print("End")
+
+- O/P.:
+P
+y
+t
+h
