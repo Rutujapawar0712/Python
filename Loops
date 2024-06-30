@@ -72,3 +72,32 @@ while Count <= 5 :
 4
 5
 
+
+
+
+2) For Loop:
+    It is used for sequential tranversal. For transversing String, List, Tuple, etc.
+
+ ■ i) For Loop:
+
+⫸ Syntax:
+
+Create Literal
+for x in Literal:
+  print(x)
+
+
+# Code - For Loop
+i)
+String = "Python"
+for Char in String:
+  print(Char)
+
+- O/P.:
+P
+y
+t
+h
+o
+n
+
