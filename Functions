@@ -32,3 +32,33 @@ Sum (1, 2)
 
 - O/P.:
 3
+
+
+
+⫸ Default Parameters:
+    Assigning a default value to parameters, which is used when no arguments are passed.
+
+# Code - Default Parameters
+i)
+def Subject (Language = "Python"):      # Assign Default Parameter
+  print("I am learning", Language)
+
+Subject ("HTML")
+Subject ()                              # No Argument
+
+- O/P.:
+I am learning HTML
+I am learning Python
+
+
+ii)
+def Sum (a = 1, b):                     # Invalid - Always initiate with Default Parameter
+or
+def Sum (b, a = 1):                     # Valid
+  Total = a + b
+  print(Total)
+
+Sum (2)
+
+- O/P.:
+3
