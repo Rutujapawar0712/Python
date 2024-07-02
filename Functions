@@ -1,0 +1,34 @@
+Functions:
+ A function is a block of code which only runs when it is called. It increases code Readability, Reusability.
+
+⫸ Syntax:
+
+def Function_Name(Parameter1, Parameter2, ...)         # Function Defination
+  Statement                                            # Code
+  return expression                                    # Returns Output of Function
+
+Function_Name(Argument1, Argument2, ...)               # Function Call
+
+
+# Code - Calling a Function
+i)
+def Greeting():
+  print("Hello")
+
+Greeting()
+
+- O/P.:
+Hello
+
+
+# Code - Passing an Argument
+i)
+def Sum (a, b):
+  Total = a + b
+  print(Total)
+  return Total
+
+Sum (1, 2)
+
+- O/P.:
+3
