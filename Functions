@@ -62,3 +62,21 @@ Sum (2)
 
 - O/P.:
 3
+
+
+
+Arguments:
+
+⫸ 1) Arbitrary Arguments:
+       If no. of arguments are not confirm, add a * before the parameter name in the function definition. 
+       This way the function will receive a tuple of arguments, and can access the items accordingly.
+
+# Code - Arbitrary Arguments
+i)
+def Language(*Subject):
+  print("I am learning ", Subject[0])
+
+Language("Python", "HTML", "CSS")
+
+- O/P.:
+I am learning Python
