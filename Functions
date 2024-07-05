@@ -95,3 +95,20 @@ Language(Sub2 = "HTML", Sub1 = "Python", Sub3 = "CSS")
 
 - O/P.:
 I am learning Python
+
+
+
+⫸ 3) Arbitrary Keyword Arguments:
+       If no. of keyword parameters are not confirmed, add ** before the parameter name in the function definition.
+       This way the function will receive a dictionary of arguments, and can access the items accordingly:
+
+# Code - Arbitrary Keyword Arguments
+i)
+def Language(**Subjects):
+  print("I am learning ", Subjects["Sub1"])
+
+Language(Sub2 = "HTML", Sub1 = "Python", Sub3 = "CSS")
+
+- O/P.:
+I am learning Python
+
