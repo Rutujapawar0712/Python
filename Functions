@@ -80,3 +80,18 @@ Language("Python", "HTML", "CSS")
 
 - O/P.:
 I am learning Python
+
+
+
+⫸ 2) Keyword Arguments:
+      It can written as arguments with the key = value syntax. This way the Position of the arguments does not matter.
+
+# Code - Keyword Arguments
+i)
+def Language(Sub1, Sub2, Sub3):
+  print("I am learning ", Sub1)
+
+Language(Sub2 = "HTML", Sub1 = "Python", Sub3 = "CSS")
+
+- O/P.:
+I am learning Python
