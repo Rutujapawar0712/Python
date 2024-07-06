@@ -1,0 +1,31 @@
+🤔 Q. Write a program to create a game to guess the secret number.
+
+# Code
+
+Secret_No = 7
+
+Guess_Str = 1
+Guess_Count = 3
+
+print("You have 3 guesses.") 
+print("Let's Start")
+
+while Guess_Str <= Guess_Count:
+   Guess_No = int(input(f"Guess {Guess_Str} = "))
+
+   if Guess_No == Secret_No:
+      print("You Win !!!")
+      break
+
+   Guess_Str += 1
+
+else:
+   print("Try Again")
+
+
+- O/P.:
+You have 3 guesses.
+Let's Start
+Guess 1 = 9
+Guess 2 = 7
+You Win !!!
