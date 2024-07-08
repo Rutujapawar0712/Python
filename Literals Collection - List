@@ -327,3 +327,25 @@ print ("Largest No. = ", No)
 - O/P.:
 Largest No. = 100
 
+
+
+
+🤔 Q. Write a program to remove duplicate elements in a list.
+       [1, 49, 9, 36, 25, 36, 49, 64, 81, 1]
+
+# Code
+
+List = [1, 49, 9, 36, 25, 36, 49, 64, 81, 1]
+NewList = []
+
+for x in List:
+
+   if x not in NewList :
+      NewList.append(x)
+
+print ("New List = ", NewList)
+
+
+- O/P.:
+New List = [1, 49, 9, 36, 25, 64, 81]
+
