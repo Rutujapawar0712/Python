@@ -306,3 +306,24 @@ List_Length (List2)
 10
 7
 
+
+
+
+🤔 Q. Write a program to find largest no. in list.
+       [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# Code
+
+List = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+No = List[0]
+
+for x in List:
+   if x > No:
+      No = x
+
+print ("Largest No. = ", No)
+
+
+- O/P.:
+Largest No. = 100
+
