@@ -47,3 +47,30 @@ RupeeToDoller(7)
 - O/P.:
 7 Dollers = 560 Rupees
 
+
+
+
+🤔 Q. Write a program to convert weights.
+
+# Code
+
+Weight = eval(input("Enter Weight = "))
+Unit = input("(L)bs or (K)gm = ")
+
+if Unit.upper() == "L":
+  Converted = Weight * 0.45
+  print(f"You are {Converted} Kilos.")
+
+elif Unit.upper() == "K":
+  Converted = Weight / 0.45
+  print(f"You are {Converted} Pounds.")
+
+else:
+  print("Wrong Input")
+
+
+- O/P.:
+Enter Weight = 7
+(L)bs or (K)gm = l
+You are 3.15 Kilos.
+
