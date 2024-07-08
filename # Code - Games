@@ -29,3 +29,59 @@ Let's Start
 Guess 1 = 9
 Guess 2 = 7
 You Win !!!
+
+
+
+
+🤔 Q. Write a program to create a game to start and stop the car.
+
+# Code
+
+Command = " "
+Started = False
+
+while True:
+   
+   Command = input("Enter Command = ").lower()
+
+   if Command == "start":
+      if Started:
+         print("Car has already started! 🛣️")
+      else:
+         Started = True
+         print("🚗... Car Starts.")
+
+   elif Command == "stop":
+      if not Started:
+         print("Car has already stopped!🛑🚘🛑")
+      else:
+         Started = False
+         print("Car Stopped.🫸___🚗")
+   
+   elif Command == "help":
+      print('''
+      start = Car Start.
+      stop = Car Stop.
+      quit = Exit the Game.
+            ''')
+
+   elif Command == "quit":
+      print("Exit the Game.")
+      break
+
+   else:
+      print("Invalid Input")
+
+
+- O/P.:
+Enter Command = Start
+🚗... Car Starts.
+
+Enter Command = Stop
+Car Stopped.🫸___🚗
+
+Enter Command = Stop
+Car has already stopped!🛑🚘🛑
+
+Enter Command = Quit
+Exit the Game.
