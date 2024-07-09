@@ -154,3 +154,29 @@ Enter Other Subject = JS
 Enter Marks of Other Subject = 97
 {'Python': 99, 'HTML': 98, 'JS': 97}
 
+
+
+
+🤔 Q. Write a program to convert an integer into a character.
+
+# Code
+
+No = input("Enter No. = ")
+
+Convert = {"0" : "Zero",  "1" : "One",
+           "2" : "Two",   "3" : "Three",
+           "4" : "Four",  "5" : "Five",
+           "6" : "Six",   "7" : "Seven",
+           "8" : "Eight", "9" : "Nine"}
+
+Ans = " "
+
+for x in No:
+   Ans += Convert.get(x) + "  "
+
+print(Ans)
+
+
+- O/P.:
+Enter No. = 9876543210
+ Nine  Eight  Seven  Six  Five  Four  Three  Two  One  Zero
