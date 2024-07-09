@@ -172,11 +172,11 @@ Convert = {"0" : "Zero",  "1" : "One",
 Ans = " "
 
 for x in No:
-   Ans += Convert.get(x) + "  "
+   Ans += Convert.get(x, "Invalid") + "  "
 
 print(Ans)
 
 
 - O/P.:
-Enter No. = 9876543210
- Nine  Eight  Seven  Six  Five  Four  Three  Two  One  Zero
+Enter No. = 975310 r
+ Nine  Seven  Five  Three  One  Zero  Invalid  Invalid
