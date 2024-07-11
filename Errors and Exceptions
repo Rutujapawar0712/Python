@@ -97,3 +97,40 @@ except ValueError:
 Enter a = Py
 Input should be Integer.
 
+
+
+■ Handling Exceptions with Try/Except/Finally with Else Clause:
+
+⫸ Syntax:
+
+try:
+  # Statement 
+except:
+  # Handling of Exception (If Required)
+else:
+  # Execute if No Exception
+finally:
+  # Statement (Always Executed)
+
+
+# Code - Try / Except / Else / Finally
+i)
+try:
+  a = int(input("Enter a = "))
+  b = int(input("Enter b = "))
+  c = a // b
+
+except ZeroDivisionError:
+  print("b cannot be 0.")
+
+else:
+  print("a // b = ", c)
+
+finally:
+  print("Code Finished.")
+
+- O/P.:
+Enter a = 20
+Enter b = 10
+a // b = 2
+Code Finished.
