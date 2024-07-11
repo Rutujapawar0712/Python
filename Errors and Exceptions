@@ -37,3 +37,33 @@ Errors and Exceptions:
      It occurs when an attempt is made to divide a number by zero.
 
 etc.
+
+
+
+Exceptions Handling:
+
+■ Try and Except Statement:
+
+⫸ Syntax:
+
+try:
+  # Statement
+except:
+  # Statement
+
+
+# Code - Try / Except
+i)
+try:
+  a = int(input("Enter a = "))
+  b = int(input("Enter b = "))
+  print("a // b = ", a // b)
+
+except:
+  print("Invalid Input.")
+
+- O/P.:
+Enter a = 10
+Enter b = 0
+Invalid Input.
+
