@@ -134,3 +134,38 @@ Enter a = 20
 Enter b = 10
 a // b = 2
 Code Finished.
+
+
+
+■ Raising Exceptions:
+
+# Code - Raise an Exceptions
+i)
+x = "Hello"
+
+if not type(x) is int:
+  raise TypeError("Only Integers are allowed.")
+
+- O/P.:
+Only Integers are allowed.
+
+
+ii)
+try:
+  a = int(input("Enter a = "))
+  b = int(input("Enter b = "))
+
+  if a > 100 or b > 100:
+    raise ValueError("Input should be less than 100.")
+  
+  else:
+    print("a // b = ", a // b)
+
+except ValueError as e:
+  print(e) 
+
+- O/P.:
+Enter a = 200
+Enter b = 10
+Input should be less than 100.
+
