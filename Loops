@@ -102,6 +102,19 @@ o
 n
 
 
+ii)
+List2D = [[1, 2, 3], 
+          [4, 5, 6], 
+          [7, 8, 9]]
+
+for row in List2D:
+   for ele in row:
+      print(ele, end = "  ")
+
+- O/P.:
+1  2  3  4  5  6  7  8  9
+
+
 
  ■ ii) For Loop with Else:
         Else code is executed only when the entire loop has finished without a break statement.
