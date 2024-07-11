@@ -67,3 +67,33 @@ Enter a = 10
 Enter b = 0
 Invalid Input.
 
+
+
+■ Handling Specific Exception:
+
+⫸ Syntax:
+
+try:
+  # Statement
+except ErrorName:
+  # Statement
+.
+.
+
+# Code - Try / Except
+i)
+try:
+  a = int(input("Enter a = "))
+  b = int(input("Enter b = "))
+  print("a // b = ", a // b)
+
+except ZeroDivisionError:
+  print("b cannot be 0.")
+
+except ValueError:
+  print("Input should be Integer.")
+
+- O/P.:
+Enter a = Py
+Input should be Integer.
+
