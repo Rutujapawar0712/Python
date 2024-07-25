@@ -18,3 +18,13 @@ with open("DemoFile.txt", "r") as f:
 - O/P.:
   # It will open a file in read mode.
  
+
+
+■ File Close:
+
+# Code - Close File
+i)
+f.close()
+
+- O/P.:
+ # It will close the file.
