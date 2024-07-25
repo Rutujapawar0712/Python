@@ -28,3 +28,17 @@ f.close()
 
 - O/P.:
  # It will close the file.
+
+
+
+■ Type of Files:
+
+1) Text Mode ("t"):
+    Text Files: .txt, .docx, .log, etc.
+
+# Code - Text Data
+i)
+f = open("DemoFile.txt", "rt")          # Default Mode
+
+- O/P.:
+ # It will open file in Text Read mode.
