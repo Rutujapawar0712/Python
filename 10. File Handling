@@ -1,0 +1,20 @@
+File I/O:
+ To perform operations (Read / Write) on files.
+
+
+■ File Open:
+
+⫸ Syntax:
+f = open("FileName.Ext", "Mode")
+
+
+# Code - Open File
+i)
+f = open("DemoFile.txt")                # Default Mode is "r" / "rt"   
+or
+with open("DemoFile.txt", "r") as f:
+  print(f.read())
+
+- O/P.:
+  # It will open a file in read mode.
+ 
