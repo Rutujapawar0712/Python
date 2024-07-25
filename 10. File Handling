@@ -42,3 +42,15 @@ f = open("DemoFile.txt", "rt")          # Default Mode
 
 - O/P.:
  # It will open file in Text Read mode.
+
+
+
+2) Binary Mode ("b"):
+    Binary Files: .jpg, .png, .mp4, etc.
+   
+# Code - Binary Data
+i)
+f = open("DemoFile.mp4", "rb")
+
+- O/P.:
+ # It will open file in Binary Read mode.
