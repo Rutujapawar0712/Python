@@ -69,3 +69,23 @@ f = open("DemoFile.txt", "x")
 - O/P.:
 FileExistsError: 'DemoFile.txt'
 
+
+
+2) Read Mode ("r"):
+    Open text file for reading. The pointer is positioned at the beginning of the file.
+
+# Code - Read File
+i)
+f = open("DemoFile.txt", "r")           # Default Value
+
+print(f.read())
+or
+print(f.read(15))                       # (No. of Characters)
+or
+for data in f:
+  print(data)
+
+f.close()
+
+- O/P.:
+"Hello World !!!" 
