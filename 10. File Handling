@@ -54,3 +54,18 @@ f = open("DemoFile.mp4", "rb")
 
 - O/P.:
  # It will open file in Binary Read mode.
+
+
+
+■ Modes:
+
+1) Create Mode ("x"): 
+    It will create a new file if and only if there is no file already in existence with that name or else it will return an error.
+
+# Code - Create a New File
+i)
+f = open("DemoFile.txt", "x")
+
+- O/P.:
+FileExistsError: 'DemoFile.txt'
+
