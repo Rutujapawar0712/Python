@@ -119,3 +119,18 @@ f.close()
  # Text File O/P.:
 I am learning Python.
 
+
+⫸ Writelines:
+    This function inserts multiple strings at the same time. A list of string elements is created, and each string is then added to the text file.
+
+# Code - WriteLine Data
+i) 
+f = open("DemoFile.txt", "w")
+f.writelines(["Hello World !!!", "\nI am learning Python."])
+f.close()
+
+- O/P.:
+ # Text File O/P.:
+Hello World !!!
+I am learning Python.
+
