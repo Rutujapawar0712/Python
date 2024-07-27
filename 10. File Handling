@@ -104,3 +104,18 @@ f.close()
 - O/P.:
 "Hello World !!!"
 
+
+
+3) Write Mode ("w"):
+    Truncate file to zero length or create text file for writing if it does not exist. The pointer is positioned at the beginning of the file.
+
+# Code - Write to a File
+i)
+f = open("DemoFile.txt", "w")
+f.write("I am learning Python.")        # OverWrite the Entire File
+f.close()
+
+- O/P.: 
+ # Text File O/P.:
+I am learning Python.
+
