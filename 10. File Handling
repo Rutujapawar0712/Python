@@ -89,3 +89,18 @@ f.close()
 
 - O/P.:
 "Hello World !!!" 
+
+
+⫸ ReadLine: 
+    Using the readline-after-read method will provide There is no output because the pointer has already reached the last line of characters.
+    It will give a blank line in the output if the file contains multiple lines of data where a line ends with an unseen next line character (\n or Enter).
+
+# Code - ReadLine Data
+i) 
+f = open("DemoFile.txt", "r")
+print(f.readline())                     # Read Single Line at a Time
+f.close()
+
+- O/P.:
+"Hello World !!!"
+
