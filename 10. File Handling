@@ -171,3 +171,19 @@ Next we will start learning JS.
 Have a Good Day !I am learning Python.
 Next we will start learning JS.
 
+
+
+6) Write + Mode ("W+"):
+    Open text file for reading and writing. The file is created if it does not exist, otherwise it is truncated. 
+    The pointer is positioned at the beginning of the file.
+
+# Code - Write and Read File
+i)
+f = open("DemoFile.txt", "w+")
+print(f.read())                         # No data to read because all data has been trancated.             
+f.write("Have a Good Day !")                    
+f.close()
+
+- O/P.:
+ # Text File O/P.:
+Have a Good Day !
