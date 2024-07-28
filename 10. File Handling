@@ -173,7 +173,7 @@ Next we will start learning JS.
 
 
 
-6) Write + Mode ("W+"):
+6) Write + Mode ("w+"):
     Open text file for reading and writing. The file is created if it does not exist, otherwise it is truncated. 
     The pointer is positioned at the beginning of the file.
 
@@ -187,3 +187,5 @@ f.close()
 - O/P.:
  # Text File O/P.:
 Have a Good Day !
+
+
