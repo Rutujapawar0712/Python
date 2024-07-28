@@ -88,7 +88,7 @@ for data in f:
 f.close()
 
 - O/P.:
-"Hello World !!!" 
+Hello World !!! 
 
 
 ⫸ ReadLine: 
@@ -102,7 +102,7 @@ print(f.readline())                     # Read Single Line at a Time
 f.close()
 
 - O/P.:
-"Hello World !!!"
+Hello World !!!
 
 
 
