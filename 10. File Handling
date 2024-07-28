@@ -189,3 +189,18 @@ f.close()
 Have a Good Day !
 
 
+
+7) Append + Mode ("a+"):
+    Open text file for reading and writing and creates new file if it does not exist. The pointer is positioned at the end of the file.
+
+# Code - Append and Read File
+i)
+f = open("DemoFile.txt", "a+")
+f.write("\nI am learning Python.")
+print(f.read())  
+f.close()
+
+- O/P.:
+ # Text File O/P.:
+Have a Good Day !
+I am learning Python.
