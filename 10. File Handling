@@ -245,3 +245,37 @@ else:
 
 - O/P.:
 The file does not exist.
+
+
+
+
+
+🤔 Q. Create a new file "Practice.txt". Add the following data in it.
+       "Hi Everyone !!!
+        We are learning Python.
+        Subtopic is "File Handling in Python".
+        In this we will study Open, Close, Operate and Delete Methods."
+
+# Code
+
+f = open("Practice.txt", "w")
+f.write('''Hi Everyone !!!
+We are learning Python.
+Subtopic is "File Handling in Python".
+In this we will study Open, Close, Operate and Delete Methods.''')
+f.close()
+
+or
+
+f = open("Practice.txt", "w")
+f.write("Hi Everyone !!! \nWe are learning Python.")
+f.writelines(["\nSubtopic is \"File Handling in Python\".", "\nIn this we will study Open, Close, Operate and Delete Methods."])
+f.close()
+
+
+- O/P.:
+ # Text File O/P.:
+Hi Everyone !!!
+We are learning Python.
+Subtopic is "File Handling in Python".
+In this we will study Open, Close, Operate and Delete Methods.
