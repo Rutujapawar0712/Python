@@ -72,3 +72,40 @@ Enter Number = 25
 Number found in Tuple at Index = 4
 Number found in Tuple at Index = 10
 
+
+
+
+🤔 Q. Write a program to find in which line of the file does any input word occur first.
+
+# Code
+
+f = open("Practice.txt", "r")
+print(f.read())
+
+Word = input("Enter word to find = ")
+Data = True
+LineNo = 1
+
+with open("Practice.txt", "r") as f:
+
+    while Data:
+        Data = f.readline()
+
+        if Word in Data:
+            print(f"\"{Word}\" word found at line no. = ", LineNo)
+            break
+        
+        LineNo += 1
+
+    else:
+        print("Word not Found")
+
+
+- O/P.:
+Hi Everyone !!!
+We are learning Python.
+Subtopic is "File Handling in Python".
+In this we will study Open, Close, Operate and Delete Methods.
+
+Enter word to find = Python
+"Python" word found at line no. = 2
