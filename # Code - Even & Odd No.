@@ -59,3 +59,28 @@ Even_Odd(No)
 - O/P.:
 Enter Number = 7
 Odd Number
+
+
+
+
+🤔 Q. Write a program to print the count of even numbers from a text file ("Practice.txt") containing numbers separated by commas.
+
+# Code
+
+Count = 0
+with open("Practice.txt", "r") as f:
+    Data = f.read()
+    print("Data = ", Data)
+
+    List = Data.split(",")
+
+    for No in List:
+        if (int(No) % 2 == 0):
+            Count += 1
+
+print("Total Even No. = ", Count)
+
+
+- O/P.:
+Data = 1, 4, 9, 16, 25, 36, 49, 64, 81, 100
+Total Even No. = 5
