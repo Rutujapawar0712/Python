@@ -151,3 +151,23 @@ Hello World !!!
 I am learning Python.
 Next we will start learning JS.
 
+
+
+5) Read + Mode ("r+"):
+    Open text file for reading and writing. The pointer is positioned at the beginning of the file.
+
+# Code - OverWrite and Read File
+i)
+f = open("DemoFile.txt", "r+")
+f.write("Have a Good Day !")            # Overwrite data at the beginning of file
+print(f.read())                         # After completing the writing, the pointer will proceed to read the text from that point onwards.
+f.close()
+
+- O/P.:
+I am learning Python.
+Next we will start learning JS.
+
+ # Text File O/P.:
+Have a Good Day !I am learning Python.
+Next we will start learning JS.
+
