@@ -147,7 +147,7 @@ f.close()
 
 - O/P.:
  # Text File O/P.:
-"Hello World !!!"
+Hello World !!!
 I am learning Python.
 Next we will start learning JS.
 
