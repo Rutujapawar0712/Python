@@ -204,3 +204,44 @@ f.close()
  # Text File O/P.:
 Have a Good Day !
 I am learning Python.
+
+
+
+■ File Delete:
+   Using the "OS" Module. 
+
+⫸ Syntax:
+import os
+os.MethodName("FileName.Ext")
+
+
+# Code - Delete File
+i)
+import os
+os.remove("DemoFile.txt")
+
+- O/P.:
+ # Delete the File
+
+
+# Code - Delete Folder
+i)
+import os
+os.rmdir("MyFolder")                    #  Only Remove Empty Folder.       
+
+- O/P.:
+ # Delete the Folder
+
+
+⫸ Check if File exist:
+
+# Code - File Exist or Not
+i)
+import os
+if os.path.exists("DemoFile.txt"):
+  os.remove("DemoFile.txt")
+else:
+  print("The file does not exist.")
+
+- O/P.:
+The file does not exist.
