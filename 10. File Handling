@@ -279,3 +279,28 @@ Hi Everyone !!!
 We are learning Python.
 Subtopic is "File Handling in Python".
 In this we will study Open, Close, Operate and Delete Methods.
+
+
+
+
+🤔 Q. Write a program that replaces all occurences of "Python" with "Py" in file "Practice.txt".
+
+# Code
+
+with open("Practice.txt", "r") as f:
+    Data = f.read()
+    NewData = Data.replace("Python", "Py")
+ 
+with open("Practice.txt", "w") as f:
+    f.write(NewData)
+
+f.close()
+
+
+- O/P.:
+ # Text File O/P.:
+Hi Everyone !!!
+We are learning Py.
+Subtopic is "File Handling in Py".
+In this we will study Open, Close, Operate and Delete Methods.
+
