@@ -41,6 +41,28 @@ Factorial = 5040
 
 
 
+🤔 Q. Write a program to find Factorial of any number using recursion.
+
+# Code
+
+def Factorial(no):
+
+    if (no <= 1):
+        return 1
+    
+    return no * Factorial(no-1)
+    
+No = int(input("Enter No. = "))
+print("Factorial = ", Factorial(No))
+
+
+- O/P.:
+Enter No. = 7
+Factorial = 5040
+
+
+
+
 🤔 Q. Write a program to find the sum of natural number.
 
 # Code
