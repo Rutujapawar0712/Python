@@ -81,3 +81,26 @@ print("Total Sum = ", Sum)
 - O/P.:
 Enter Number = 7
 Total Sum = 28
+
+
+
+
+🤔 Q. Write a program to find Fibonacci series of any number.
+
+# Code
+
+def Fibonacci(no):
+
+    if (no <= 1):
+        return no
+    else:
+        return Fibonacci(no-1) + Fibonacci(no-2)
+
+No = int(input("Enter No. = "))
+for i in range(No): 
+    print(Fibonacci(i), end = "  ")
+
+
+- O/P.:
+Enter No. = 7
+0  1  1  2  3  5  8
