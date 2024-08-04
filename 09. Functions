@@ -112,3 +112,31 @@ Language(Sub2 = "HTML", Sub1 = "Python", Sub3 = "CSS")
 - O/P.:
 I am learning Python
 
+
+
+⫸ Recursion:
+    When function call itself repeatedly. Without base case, the loop will execute infinite times.
+
+⫸ Syntax:
+def Function_Name(n)                    # Function Defination
+  Base Case:                            # Stopping Condition
+    return expression                   
+  Statement                            
+  Function_Name(n-1)                    # Recursion Function
+
+Function_Name(Argument1,...)            # Function Call
+
+
+# Code - Recursion
+i)
+def Number(No):
+    if(No == 0):
+        return
+    print(No, end="  ")
+    Number(No-1)
+
+Number(5)
+
+- O/P.:
+5  4  3  2  1
+
