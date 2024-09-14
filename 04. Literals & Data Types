@@ -1,5 +1,5 @@
- ■ Python Data Types: 
-    It is used to define the type of data stored in a variable.
+■ Python Data Types: 
+   It is used to define the type of data stored in a variable.
 
 # Code - Identify the Type of data
 i)
@@ -31,13 +31,13 @@ viii) None Type : NoneType
 
 
 
-⫸ Typeconversion / Typecasting:
-    The conversion of one data type into other data type.
+■ Typeconversion / Typecasting:
+   The conversion of one data type into other data type.
 
-Type of Typecasting:
+⫸ Types of Typecasting:
 
-1) Implicit Typeconversion:
-    Conversion will be done by python interpreter from lower to higher data type automatically to prevent loss of data.
+▪ 1) Implicit Typeconversion:
+      Conversion will be done by python interpreter from lower to higher data type automatically to prevent loss of data.
 
 # Code - Implicit Typeconversion
 i)
@@ -49,8 +49,8 @@ print(a/b)
 
 
 
-2) Explicit Typecasting: 
-    Conversion done by programmer as per requirement.
+▪ 2) Explicit Typecasting: 
+      Conversion done by programmer as per requirement.
 
 # Code - Explicit Typecasting
 i)
@@ -68,7 +68,7 @@ a = input ("Enter First No.= ")
 b = input ("Enter Second No.= ")
 print(int(a) + float(b)) 
 
-or
+ #or
 
 a = int (input ("Enter First No.= ")) 
 b = eval (input ("Enter Second No.= "))          # Int and float both 
@@ -82,8 +82,8 @@ Enter Second No.= 7
 
 
 
-3) Literals: 
-    It is a syntax that is used to completely express a fixed value of a specific data type.
+■ 3) Literals: 
+      It is a syntax that is used to completely express a fixed value of a specific data type.
  
  ■ i) Character Literals: 
        It is also a string literal type in which the character is enclosed in single (') or double (") quotes.
@@ -139,13 +139,13 @@ String
 
 
 
-⫸ String:
-    It is data type that stores a sequence of character.
+  ■ String:
+     It is data type that stores a sequence of character.
 
 # Code - String
 i)
 print("123" + "456")                    # Output will be string concatenation
-or
+ #or
 print(str(123) + "456")
 
 - O/P.: 
@@ -192,16 +192,16 @@ n
 ⫸ String Slicing:
     Accessing part of string.
 
- Default Syntax:
- str[starting index : length of string]  
+</> Syntax:
+str[starting index : length of string]  
 
 # Code - String Index Slicing
 i)
 String = "Python" 
 print(String[0:2])
-or
+ #or
 print(String[:2])
-or
+ #or
 print(String[-1:-2])                    # Invalid - Slicing should be left to right side
 
 - O/P.:
@@ -250,18 +250,18 @@ print(String.find("r"))
 ⫸ Strings Formatting:
     In an f-string, a placeholder {} can contain variables, operations, functions, and modifiers to format the value.
 
-1) Default Order Format:
+i) Default Order Format:
 
 # Code - Default Order
 i)
 String = "Default"
 print(f"{String} Order Format")
 
-or
+ #or
 
 print("{} Order Format".format("Default"))
 
-or
+ #or
 
 print("{} {} {}".format('Default', 'Order', 'Format')) 
 
@@ -270,7 +270,7 @@ Default Order Format
 
 
 
-2) Positional Order Format:
+ii) Positional Order Format:
 
 # Code - Positional Order 
 i)
@@ -282,14 +282,14 @@ Positional Order Format
 
 
 
-3) Keyword Order Format:
+iii) Keyword Order Format:
 
 # Code - Keyword Order
 i)
 String = "{K} {O} {F}".format(K = 'Keyword', O = 'Order', F = 'Format')       
 print(String)
 
-or
+ #or
 
 K, O, F = "Keyword", "Order", "Format"
 String = "{a} {b} {c}".format(a = K, b = O, c = F)  
@@ -301,12 +301,12 @@ Keyword Order Format
 
 
 
- iii) Numeric Literals:
+ ■ iii) Numeric Literals:
 
-  ■ iii.i) Integer Numeric Literals: 
-            It includes both positive and negative numbers along with 0. 
-            It doesn’t include fractional parts. 
-            It can also include binary, decimal, octal, hexadecimal literal.  
+ ▪ iii.i) Integer Numeric Literals: 
+           It includes both positive and negative numbers along with 0. 
+           It doesn’t include fractional parts. 
+           It can also include binary, decimal, octal, hexadecimal literal.  
 
              Binary      : (0 & 1). The base is 2 and prefixed with '0b'.
              Decimal     : (0 to 9). The base is 10.
@@ -325,7 +325,7 @@ Binary value  = 10
 
 
 
- ■ iii.ii) Float Numeric Literals: 
+ ▪ iii.ii) Float Numeric Literals: 
             It includes both positive and negative real numbers.
             It also includes fractional parts.
 
@@ -339,7 +339,7 @@ Float value = 7.0
 
 
 
- ■ iii.iii) Complex Numeric Literals:
+ ▪ iii.iii) Complex Numeric Literals:
              It includes real numbers and imaginary numbers.
 
 # Code - Complex Literals
@@ -353,8 +353,8 @@ Complex value = (7+7j)
 
 
 
-■ iv) Boolean Literals: 
-       Boolean literals have only two values in Python. These are True (non zero) and False (zero).
+ ■ iv) Boolean Literals: 
+        Boolean literals have only two values in Python. These are True (non zero) and False (zero).
 
 # Code - Boolean Literals
 i)
@@ -372,8 +372,8 @@ print(int(True))
 
 
 
-■ v) Special Literals: 
-      Python has a special literal ‘None’. It is used to denote nothing, no values, or the absence of value.
+ ■ v) Special Literals: 
+       Python has a special literal ‘None’. It is used to denote nothing, no values, or the absence of value.
 
 # Code - Special Literals
 i)
