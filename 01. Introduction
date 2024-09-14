@@ -1,9 +1,9 @@
-Python History:
- It was made by "Guido Van Rassom" in "1991".
+■ Python History:
+   It was made by "Guido Van Rassom" in "1991".
 
 
 
-Python programs can be written on different IDEs (Integrated Development Environments):
+■ Python programs can be written on different IDEs (Integrated Development Environments):
 1) Command Prompt
 2) Notepad / Notepad++
 3) Pycharm
@@ -13,7 +13,7 @@ Python programs can be written on different IDEs (Integrated Development Environ
 7) Replit
 
 
-- After Python download, open cmd (command prompt):
+⫸ After Python download, open cmd (command prompt):
 
 1) To check if Python is correctly installed or not.
 
@@ -35,7 +35,7 @@ python "filename".py
 
 
 
-Modules:
+■ Modules:
 
 1) Build-in modules:
     No need to install them explicitly.
