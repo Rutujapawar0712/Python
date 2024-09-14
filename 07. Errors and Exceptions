@@ -1,6 +1,6 @@
-Errors and Exceptions:
+■ Errors and Exceptions:
 
-■ Errors:
+ ■ Errors:
 
 1) AttributeError: 
     It occurs when an attribute or method is not found on an object, such as when trying to access a non-existent attribute of a class instance.
@@ -40,16 +40,16 @@ etc.
 
 
 
-Exceptions Handling:
+ ■ Exceptions Handling:
 
-■ Try and Except Statement:
+ ▪ 1) Try and Except Statement:
 
-⫸ Syntax:
+</> Syntax:
 
 try:
-  # Statement
+  Statement
 except:
-  # Statement
+  Statement
 
 
 # Code - Try / Except
@@ -69,14 +69,14 @@ Invalid Input.
 
 
 
-■ Handling Specific Exception:
+ ▪ 2) Handling Specific Exception:
 
-⫸ Syntax:
+</> Syntax:
 
 try:
-  # Statement
+  Statement
 except ErrorName:
-  # Statement
+  Statement
 .
 .
 
@@ -99,18 +99,18 @@ Input should be Integer.
 
 
 
-■ Handling Exceptions with Try/Except/Finally with Else Clause:
+ ▪ 3) Handling Exceptions with Try/Except/Finally with Else Clause:
 
-⫸ Syntax:
+</> Syntax:
 
 try:
-  # Statement 
+  Statement 
 except:
-  # Handling of Exception (If Required)
+  Handling of Exception (If Required)
 else:
-  # Execute if No Exception
+  Execute if No Exception
 finally:
-  # Statement (Always Executed)
+  Statement (Always Executed)
 
 
 # Code - Try / Except / Else / Finally
@@ -137,7 +137,7 @@ Code Finished.
 
 
 
-■ Raising Exceptions:
+⫸ Raising Exceptions:
 
 # Code - Raise an Exceptions
 i)
