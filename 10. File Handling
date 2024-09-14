@@ -1,17 +1,17 @@
-File I/O:
- To perform operations (Read / Write) on files.
+■ File I/O:
+   To perform operations (Read / Write) on files.
 
 
-■ File Open:
+ ■ File Open:
 
-⫸ Syntax:
+</> Syntax:
 f = open("FileName.Ext", "Mode")
 
 
 # Code - Open File
 i)
 f = open("DemoFile.txt")                # Default Mode is "r" / "rt"   
-or
+ #or
 with open("DemoFile.txt", "r") as f:
   print(f.read())
 
@@ -20,7 +20,7 @@ with open("DemoFile.txt", "r") as f:
  
 
 
-■ File Close:
+ ■ File Close:
 
 # Code - Close File
 i)
@@ -33,8 +33,8 @@ f.close()
 
 ■ Type of Files:
 
-1) Text Mode ("t"):
-    Text Files: .txt, .docx, .log, etc.
+▪ 1) Text Mode ("t"):
+      Text Files: .txt, .docx, .log, etc.
 
 # Code - Text Data
 i)
@@ -45,8 +45,8 @@ f = open("DemoFile.txt", "rt")          # Default Mode
 
 
 
-2) Binary Mode ("b"):
-    Binary Files: .jpg, .png, .mp4, etc.
+▪ 2) Binary Mode ("b"):
+      Binary Files: .jpg, .png, .mp4, etc.
    
 # Code - Binary Data
 i)
@@ -59,8 +59,8 @@ f = open("DemoFile.mp4", "rb")
 
 ■ Modes:
 
-1) Create Mode ("x"): 
-    It will create a new file if and only if there is no file already in existence with that name or else it will return an error.
+▪ 1) Create Mode ("x"): 
+      It will create a new file if and only if there is no file already in existence with that name or else it will return an error.
 
 # Code - Create a New File
 i)
@@ -71,17 +71,17 @@ FileExistsError: 'DemoFile.txt'
 
 
 
-2) Read Mode ("r"):
-    Open text file for reading. The pointer is positioned at the beginning of the file.
+▪ 2) Read Mode ("r"):
+      Open text file for reading. The pointer is positioned at the beginning of the file.
 
 # Code - Read File
 i)
 f = open("DemoFile.txt", "r")           # Default Value
 
 print(f.read())
-or
+ #or
 print(f.read(15))                       # (No. of Characters)
-or
+ #or
 for data in f:
   print(data)
 
@@ -106,8 +106,8 @@ Hello World !!!
 
 
 
-3) Write Mode ("w"):
-    Truncate file to zero length or create text file for writing if it does not exist. The pointer is positioned at the beginning of the file.
+▪ 3) Write Mode ("w"):
+      Truncate file to zero length or create text file for writing if it does not exist. The pointer is positioned at the beginning of the file.
 
 # Code - Write to a File
 i)
@@ -136,8 +136,8 @@ I am learning Python.
 
 
 
-4) Append Mode ("a"):
-    Open text file for writing and create new file if it does not exist. The pointer is positioned at the end of the file.
+▪ 4) Append Mode ("a"):
+      Open text file for writing and create new file if it does not exist. The pointer is positioned at the end of the file.
 
 # Code - Append Data to a File
 i)
@@ -153,8 +153,8 @@ Next we will start learning JS.
 
 
 
-5) Read + Mode ("r+"):
-    Open text file for reading and writing. The pointer is positioned at the beginning of the file.
+▪ 5) Read + Mode ("r+"):
+      Open text file for reading and writing. The pointer is positioned at the beginning of the file.
 
 # Code - OverWrite and Read File
 i)
@@ -173,9 +173,9 @@ Next we will start learning JS.
 
 
 
-6) Write + Mode ("w+"):
-    Open text file for reading and writing. The file is created if it does not exist, otherwise it is truncated. 
-    The pointer is positioned at the beginning of the file.
+▪ 6) Write + Mode ("w+"):
+      Open text file for reading and writing. The file is created if it does not exist, otherwise it is truncated. 
+      The pointer is positioned at the beginning of the file.
 
 # Code - Write and Read File
 i)
@@ -190,8 +190,8 @@ Have a Good Day !
 
 
 
-7) Append + Mode ("a+"):
-    Open text file for reading and writing and creates new file if it does not exist. The pointer is positioned at the end of the file.
+▪ 7) Append + Mode ("a+"):
+      Open text file for reading and writing and creates new file if it does not exist. The pointer is positioned at the end of the file.
 
 # Code - Append and Read File
 i)
@@ -207,10 +207,10 @@ I am learning Python.
 
 
 
-■ File Delete:
-   Using the "OS" Module. 
+ ■ File Delete:
+    Using the "OS" Module. 
 
-⫸ Syntax:
+</> Syntax:
 import os
 os.MethodName("FileName.Ext")
 
@@ -231,6 +231,7 @@ os.rmdir("MyFolder")                    #  Only Remove Empty Folder.
 
 - O/P.:
  # Delete the Folder
+
 
 
 ⫸ Check if File exist:
@@ -265,7 +266,7 @@ Subtopic is "File Handling in Python".
 In this we will study Open, Close, Operate and Delete Methods.''')
 f.close()
 
-or
+ #or
 
 f = open("Practice.txt", "w")
 f.write("Hi Everyone !!! \nWe are learning Python.")
