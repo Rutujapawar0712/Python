@@ -37,11 +37,11 @@ python "filename".py
 
 ■ Modules:
 
-1) Build-in modules:
-    No need to install them explicitly.
+▪ 1) Build-in modules:
+      No need to install them explicitly.
 
-2) External modules:
-    It can be installed / uninstalled using a package manager like 'pip' / 'conda'.
+▪ 2) External modules:
+      It can be installed / uninstalled using a package manager like 'pip' / 'conda'.
                              
-    Ex.: Write "pip install pandas" on cmd / terminal, and then
-         write "import pandas" in code.                     
+      Ex.: Write "pip install pandas" on cmd / terminal, and then
+           Write "import pandas" in code.                     
