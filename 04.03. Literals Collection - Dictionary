@@ -1,4 +1,4 @@
- vi) Literals Collection:
+■ vi) Literals Collection:
 
  ■ vi.iii) Dictionary: 
             It is comma-separated set of key-value pairs enclose in curly braces '{}'.
@@ -16,6 +16,7 @@ print(type(Null_Dict))
 - O/P.: 
 {}
 <class 'dict'>
+
 
 ii)
 Dict = {"No. of Sub.": "4", 
@@ -88,7 +89,7 @@ i)
 Dict = {"No. of Sub.": "1", "Subject": "Python"}
 
 print(Dict["Topics"])                   # Output will be 'Error' if key is not present
-or
+ #or
 print(Dict.get("Topics"))               # More Prferable - Output will be 'None' if key is not present
 
 - O/P.: 
@@ -113,7 +114,7 @@ i)
 Dict = {"No. of Sub.": "1", "Subject": "Python"}
 
 print (list(Dict[]))
-or
+ #or
 List = (list(Dict))                             
 print(List)
 
