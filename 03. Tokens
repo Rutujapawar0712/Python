@@ -1,7 +1,7 @@
-Python Tokens:
-  A token is the smallest individual unit in a python program. All statements and instructions in a program are built with tokens. 
+■ Python Tokens:
+   A token is the smallest individual unit in a python program. All statements and instructions in a program are built with tokens. 
 
-The various tokens in python are:
+⫸ The various tokens in python are:
 1) Keywords                
 2) Identifiers
 
@@ -12,23 +12,23 @@ The various tokens in python are:
                v) Special Literals
               vi) Literals Collection - List, Tuple, Dictionary, Set 
 
-4) Operators - i) Arithmetic operators
-              ii) Assignment operators
-             iii) Comparison operators
-              iv) Logical operators
-               v) Identity operators
-              vi) Membership operators
-             vii) Bitwise operators        
+4) Operators - i) Arithmetic Operators
+              ii) Assignment Operators
+             iii) Comparison Operators
+              iv) Logical Operators
+               v) Identity Operators
+              vi) Membership Operators
+             vii) Bitwise Operators        
 
 5) Punctuators
 
 
 
-Detail of Tokens:
+⫸ Detail of Tokens:
 
-1) Keywords:
-    They are reserve words with some special meaning or significance in a programming language. 
-    It can’t be used as Identifiers or variable names, function names, or any other random purpose.
+■ 1) Keywords:
+      They are reserve words with some special meaning or significance in a programming language. 
+      It can’t be used as Identifiers or variable names, function names, or any other random purpose.
 
 
 # Code - Print all Keywords
@@ -44,10 +44,10 @@ The list of Keywords:
 
 
 
-2) Identifiers:
-    It is a user-defined name given to a variable, function, class, module, etc. for their identification. 
-
-Characteristics of Python Identifier:
+■ 2) Identifiers:
+      It is a user-defined name given to a variable, function, class, module, etc. for their identification. 
+ 
+⫸ Characteristics of Python Identifier:
 i)   It can not be a keyword.
 ii)  It is case sensitive language.
 iii) It should be combination of uppercase and lowercase letters, digits or an underscore(_).
@@ -72,7 +72,8 @@ TRUE
 
 
 
-5) Punctuators: 
-    These are the symbols that used in Python to organize the structures, statements, and expressions.
+■ 5) Punctuators: 
+      These are the symbols that used in Python to organize the structures, statements, and expressions.
     
-    Brackets [ ], Parentheses ( ), Braces { }, Comma (,), Semicolon (;), Colon (:), Asterisk (*), Equal sign (=), Pound sign (#)
+      Brackets [ ], Parentheses ( ), Braces { }, Comma (,), Semicolon (;), Colon (:), Asterisk (*), Equal sign (=), Pound sign (#)
+
