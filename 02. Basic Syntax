@@ -1,5 +1,5 @@
-Python Character Set: 
- It is a set of valid characters acceptable by a programming language in scripting. 
+■ Python Character Set: 
+   It is a set of valid characters acceptable by a programming language in scripting. 
 
 i)   Alphabets       : All capital (A-Z) and small (a-z) alphabets.
 ii)  Digits          : All digits 0-9.
@@ -17,21 +17,21 @@ Hello
 
 
 
-Comments:
+■ Comments:
 
-1) Single line comment:
-    Write "#" at the start of the line.
+▪ 1) Single line comment:
+      Write "#" at the start of the line.
 
-2) Multi line comment:
-    Write "#" at the start of each line. 
-    or 
-    Write ''' / """ at the start and ''' / """ at the end.
+▪ 2) Multi line comment:
+      Write "#" at the start of each line. 
+      or 
+      Write ''' / """ at the start and ''' / """ at the end.
 
 
 
-Seperator and End:
- Default seperator is "space".
- Default end is "Next Line (\n)".
+■ Seperator and End:
+   Default seperator is "space".
+   Default end is "Next Line (\n)".
 
 # Code - Seperator and End
 i)
@@ -44,8 +44,8 @@ Hello , World End
 
 
 
-Escape Characters:
- To insert a character that cannot be directly used in a string. Write "\" followed by the character that needs to be added.
+■ Escape Characters:
+   To insert a character that cannot be directly used in a string. Write "\" followed by the character that needs to be added.
 
 i)    \' and \"        : Single quote / Double quote	
 ii)   \\	              : Backslash	
@@ -82,8 +82,8 @@ Hello World
 
 
 
-Variables:
- It is name assigned to container (memory location) for storing data value.
+■ Variables:
+   It is name assigned to container (memory location) for storing data value.
 
 # Code - Create Variables
 i)
@@ -116,7 +116,7 @@ Python
 
 
 
-Different cases in Variable Names:
+⫸ Different Cases in Variable Names:
 
 i) Camel case: 
     Each word, except the first, starts with a capital letter.
@@ -137,13 +137,13 @@ my_variable_name = "Snake Case"
 
 
 
-Python Input Function: 
- input() statement used to accept values (using keyboard) as a string from user.
+■ Python Input Function: 
+   input() statement used to accept values (using keyboard) as a string from user.
 
 # Code - Input Function 
 i)
 a = input("Language = ")
-or 
+ #or 
 a = str(input("Language = "))
 
 print("I am styding ", a) 
