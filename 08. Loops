@@ -1,9 +1,9 @@
-Loops:
- It is used to repeat instructions.
+■ Loops:
+   It is used to repeat instructions.
 
-■ 1) While Loop:
+ ■ 1) While Loop:
 
-⫸ Syntax:
+</> Syntax:
 
 Create Iterator
 While Condition:
@@ -29,8 +29,8 @@ while Count <= 5:             # Stopping Condition
 
 ⫸ Break & Continue:
 
-⫸ Break:
-    It is used to terminate the loop when encountered.
+▪ Break:
+   It is used to terminate the loop when encountered.
 
 # Code - Break
 i)
@@ -50,9 +50,9 @@ while Count <= 5:
 
 
 
-⫸ Continue:
-    Terminates execution in the current iteration & 
-    Continues execution in the next iteration.
+▪ Continue:
+   Terminates execution in the current iteration & 
+   Continues execution in the next iteration.
 
 # Code - Continue
 i)
@@ -75,12 +75,12 @@ while Count <= 5 :
 
 
 
-2) For Loop:
-    It is used for sequential tranversal. For transversing String, List, Tuple, etc.
+ ■ 2) For Loop:
+       It is used for sequential tranversal. For transversing String, List, Tuple, etc.
 
- ■ i) For Loop:
+ ▪ i) For Loop:
 
-⫸ Syntax:
+</> Syntax:
 
 Create Literal
 for x in Literal:
@@ -116,10 +116,10 @@ for row in List2D:
 
 
 
- ■ ii) For Loop with Else:
+ ▪ ii) For Loop with Else:
         Else code is executed only when the entire loop has finished without a break statement.
 
-⫸ Syntax:
+</> Syntax:
 
 Create Literal
 for x in Literal:
@@ -151,7 +151,7 @@ h
 ⫸ Range in Loop:
     Start index and Step is optional
 
-⫸ Syntax:
+</> Syntax:
 
 range(Start,     Stop*   , Step)
 range(  0  , len(Literal),  1  )       # Default
