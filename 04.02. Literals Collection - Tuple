@@ -1,4 +1,4 @@
- vi) Literals Collection:
+■ vi) Literals Collection:
 
  ■ vi.ii) Tuple: 
            It is also a list of comma-separated elements or values in round () brackets. 
@@ -86,8 +86,9 @@ N
 ⫸ Tuple Slicing:
     Accessing part of tuple (Subtuple). 
 
-Default Syntax:
+</> Syntax:
 [Start index (0) : Last index (Length of tuple)]
+
 
 # Code - Tuple Index Slicing
 i)
@@ -122,7 +123,7 @@ ii)
 Tuple = ('P', 'Y', 'T', 'H', 0, 'N', 7, 'P', 'Y')
 
 print(Tuple.index(7))     
-or 
+ #or 
 print(Tuple.index(7, 2, 8))             # (Ele, Strt index, End index)
 
 - O/P.: 
