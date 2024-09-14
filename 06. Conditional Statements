@@ -1,16 +1,16 @@
-Conditional Statements:
- It provide different outcomes depending on the condition evaluated.
- Python uses indentation to identify a block.
+■ Conditional Statements:
+   It provide different outcomes depending on the condition evaluated.
+   Python uses indentation to identify a block.
 
 
-■ 1) If Statement:
-      Intepreter always check if statement.
+ ■ 1) If Statement:
+       Intepreter always check if statement.
 
-⫸ Syntax:
+</> Syntax:
 
 if Condition:
   Statement
- or
+ #or
   pass                        # In case if statement with no content, put in the pass statement to avoid getting an error.
 
 
@@ -25,10 +25,10 @@ a is greater than b
 
 
 
-■ 2) If Else Statement:
-      Intepreter check else statement only if "if" statement is false.
+ ■ 2) If Else Statement:
+       Intepreter check else statement only if "if" statement is false.
 
-⫸ Syntax:
+</> Syntax:
 
 if (Condition):
   Statement
@@ -49,9 +49,9 @@ b is greater than a
 
 
 
-■ 3) Nested If Statement:
+ ■ 3) Nested If Statement:
 
-⫸ Syntax:
+</> Syntax:
 
 if (Condition):
   Statement
@@ -77,9 +77,9 @@ Invalid Number
 
 
 
-■ 4) Elif Statement:
+ ■ 4) Elif Statement:
 
-⫸ Syntax:
+</> Syntax:
 
 if (Condition):
   Statement
@@ -108,9 +108,9 @@ b is greater than 10
 
 
 
-■ 5) Ternary Statement | Short Hand If Else Statement:
+ ■ 5) Ternary Statement / Short Hand If Else Statement:
 
-⫸ Syntax:
+</> Syntax:
 
 Statement if (Condition) else Statement
 
