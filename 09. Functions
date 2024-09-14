@@ -1,7 +1,7 @@
-Functions:
- A function is a block of code which only runs when it is called. It increases code Readability, Reusability.
+■ Functions:
+   A function is a block of code which only runs when it is called. It increases code Readability, Reusability.
 
-⫸ Syntax:
+</> Syntax:
 
 def Function_Name(Parameter1, Parameter2, ...)         # Function Defination
   Statement                                            # Code
@@ -53,7 +53,7 @@ I am learning Python
 
 ii)
 def Sum (a = 1, b):                     # Invalid - Always initiate with Default Parameter
-or
+ #or
 def Sum (b, a = 1):                     # Valid
   Total = a + b
   print(Total)
@@ -65,11 +65,11 @@ Sum (2)
 
 
 
-Arguments:
+⫸ Arguments:
 
-⫸ 1) Arbitrary Arguments:
-       If no. of arguments are not confirm, add a * before the parameter name in the function definition. 
-       This way the function will receive a tuple of arguments, and can access the items accordingly.
+▪ i) Arbitrary Arguments:
+      If no. of arguments are not confirm, add a * before the parameter name in the function definition. 
+      This way the function will receive a tuple of arguments, and can access the items accordingly.
 
 # Code - Arbitrary Arguments
 i)
@@ -83,8 +83,8 @@ I am learning Python
 
 
 
-⫸ 2) Keyword Arguments:
-      It can written as arguments with the key = value syntax. This way the Position of the arguments does not matter.
+▪ ii) Keyword Arguments:
+       It can written as arguments with the key = value syntax. This way the Position of the arguments does not matter.
 
 # Code - Keyword Arguments
 i)
@@ -98,9 +98,9 @@ I am learning Python
 
 
 
-⫸ 3) Arbitrary Keyword Arguments:
-       If no. of keyword parameters are not confirmed, add ** before the parameter name in the function definition.
-       This way the function will receive a dictionary of arguments, and can access the items accordingly:
+▪ iii) Arbitrary Keyword Arguments:
+        If no. of keyword parameters are not confirmed, add ** before the parameter name in the function definition.
+        This way the function will receive a dictionary of arguments, and can access the items accordingly:
 
 # Code - Arbitrary Keyword Arguments
 i)
@@ -117,7 +117,8 @@ I am learning Python
 ⫸ Recursion:
     When function call itself repeatedly. Without base case, the loop will execute infinite times.
 
-⫸ Syntax:
+</> Syntax:
+
 def Function_Name(n)                    # Function Defination
   Base Case:                            # Stopping Condition
     return expression                   
