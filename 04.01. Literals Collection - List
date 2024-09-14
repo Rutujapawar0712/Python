@@ -1,9 +1,9 @@
- vi) Literals Collection: 
+■ vi) Literals Collection: 
 
  ■ vi.i) List: 
-         It is a list of comma-separated elements or values represented in square [] brackets. 
-         The values can be of any data type and can be changed (mutable).
-         It allows duplicate values.
+          It is a list of comma-separated elements or values represented in square [] brackets. 
+          The values can be of any data type and can be changed (mutable).
+          It allows duplicate values.
 
 # Code - List
 i)
@@ -72,8 +72,9 @@ HTML
 ⫸ List Slicing: 
     Accessing part of list (Sublist).
 
-default Syntax:
+</> Syntax:
 [Start index (0) : Last index (Length of list)]
+
 
 # Code - List Index Slicing
 i)
@@ -128,7 +129,7 @@ List2 = [0, 'N', 7.]
 List1.extend(List2) 
 print(List1)
 
-or
+ #or
 
 Concate_List = List1 + List2
 print(Concate_List)
