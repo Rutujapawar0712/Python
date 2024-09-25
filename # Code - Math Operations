@@ -74,3 +74,28 @@ Enter Weight = 7
 (L)bs or (K)gm = l
 You are 3.15 Kilos.
 
+
+
+
+🤔 Q. Create 'student' class that takes the name and marks of 3 subjects as arguments in the constructor. Then create a method to print the average.
+
+# Code
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def average(self):
+        sum = 0
+        for val in self.marks:
+            sum += val
+        
+        return sum / 3
+    
+s1 = Student("Ritu", [98, 97, 99])
+print(f"{s1.name} got {s1.average()}%.")
+
+
+O/P.:
+Ritu got 98.0%.
