@@ -1,3 +1,27 @@
+🤔 Q. Write a program to select random dice numbers.
+
+# Code
+
+import random
+
+class Dice:
+
+    def roll(self):
+
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return (first, second)
+
+dice = Dice()
+print(dice.roll())
+
+
+O/P.:
+(1, 1)
+
+
+
+
 🤔 Q. Write a program to create a game to guess the secret number.
 
 # Code
