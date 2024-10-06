@@ -44,5 +44,5 @@ print(study.course)
 
 O/P.:
 Python
-AttributeError: 'Study' object has no attribute 'Course'
+AttributeError: 'Study' object has no attribute 'course'
 
