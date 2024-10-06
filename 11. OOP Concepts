@@ -1,0 +1,24 @@
+■ Object-Oriented Programming
+
+ ■ Class and Object:
+    A Class is like an object constructor, or a "blueprint" for creating objects.
+
+</> Syntax:
+
+class ClassName:                        # Create Class
+  Statement                             # Define Attributes / Methods
+
+Object = ClassName()                    # Create Object
+Object.Attribute / MethodName()         # Call Object Attributes / Methods
+
+
+# Code - Create Class and Object
+i)
+class Study:
+  course = "Python"
+
+study = Study()
+print(study.course)
+
+O/P.:
+Python
