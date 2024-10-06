@@ -22,3 +22,27 @@ print(study.course)
 
 O/P.:
 Python
+
+
+
+⫸ Delete:
+    'del' keyword is used to delete object or its properties.
+
+# Code - Delete
+i)
+class Study:
+  course = "Python"
+
+study = Study()
+print(study.course)
+
+del study                               # Delete Object
+ #or
+del study.course                        # Delete Attribute
+
+print(study.course)
+
+O/P.:
+Python
+AttributeError: 'Study' object has no attribute 'Course'
+
