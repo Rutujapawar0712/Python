@@ -46,3 +46,39 @@ O/P.:
 Python
 AttributeError: 'Study' object has no attribute 'course'
 
+
+
+
+ ■ Constructor:
+    The '__init__' function initializes a new object, with 'self' referring to the current instance. 
+    Only one constructor is used per class to define attributes.
+
+
+⫸ Type of Constructor:
+
+▪ 1) Default Constructor: 
+      It is a constructor that does not take any arguments. 
+      The Python interpreter will generate it internally even if we did not write it directly in our code.
+
+</> Syntax:
+
+class ClassName:            
+
+  def __init__(self):                   # Default Constructor
+    pass
+
+Object = ClassName()                    # Create Object and '()' will Call Constructor
+
+
+# Code - Default Constructor
+i)
+class Study:
+  Course = "Python"
+
+  def __init__(self):         
+    print("I am learning new course.")
+
+study = Study()    
+
+O/P.:
+I am learning new course.
