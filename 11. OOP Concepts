@@ -82,3 +82,39 @@ study = Study()
 
 O/P.:
 I am learning new course.
+
+
+
+▪ 2) Parameterized Constructor:
+      It is a constructor that takes arguments. 
+      When two constructors are written for the same class, the constructor with the same number of parameters will be excuted.
+
+</> Syntax:
+
+class ClassName:              
+
+  def __init__(self, para1, ...):       # Parameterize Constructor
+    Statement
+
+Object = ClassName(value1, ...)         # Passing values = No. of Parameter in Constructor
+Object.Attribute / MethodName()
+
+
+# Code - Parameterized Constructor
+i)
+class Study:
+
+  def __init__(self):
+    pass
+
+  def __init__(self, course, shift):
+    print("I am learning new course:")
+    self.course = course
+    self.shift = shift
+
+study = Study("Python", "Morning")
+print(study.course, "in the", study.shift, "Shift.")
+
+O/P.:
+I am learning new course:
+Python in the Morning Shift.
